@@ -1,0 +1,1831 @@
+{
+   "topics": [
+    {
+      "id": "t_kurashi",
+      "name": "暮らし・生活",
+      "icon": "🏠",
+      "image": ""
+    }
+  ],
+  "vocab": [
+  {
+    "id": "v_kakei",
+    "topicId": "t_kurashi",
+    "jp": "家計",
+    "kana": "かけい",
+    "meaning": "thu chi trong gia đình",
+    "example": "今月も我が家の家計は赤字だ。",
+    "hanviet": "家計: Gia kế",
+    "icon": "💰",
+    "image": ""
+  },
+  {
+    "id": "v_sashihiku",
+    "topicId": "t_kurashi",
+    "jp": "差し引く",
+    "kana": "さしひく",
+    "meaning": "khấu trừ",
+    "example": "給料は税金を差し引いて振り込まれる。",
+    "hanviet": "差引: Sai dẫn",
+    "icon": "➖",
+    "image": ""
+  },
+  {
+    "id": "v_tedori",
+    "topicId": "t_kurashi",
+    "jp": "手取り",
+    "kana": "てどり",
+    "meaning": "thu nhập ròng, tiền về tay",
+    "example": "手取りで20万円は欲しい。",
+    "hanviet": "手取: Thủ thủ",
+    "icon": "🖐️",
+    "image": ""
+  },
+  {
+    "id": "v_kenyaku",
+    "topicId": "t_kurashi",
+    "jp": "倹約（する）",
+    "kana": "けんやく（する）",
+    "meaning": "tiết kiệm",
+    "example": "外食代を倹約している。",
+    "hanviet": "倹約: Kiệm ước",
+    "icon": "🐷",
+    "image": ""
+  },
+  {
+    "id": "v_shuppi",
+    "topicId": "t_kurashi",
+    "jp": "出費",
+    "kana": "しゅっぴ",
+    "meaning": "khoản chi",
+    "example": "今月は出費が多い。",
+    "hanviet": "出費: Xuất phí",
+    "icon": "💸",
+    "image": ""
+  },
+  {
+    "id": "v_kasamu",
+    "topicId": "t_kurashi",
+    "jp": "かさむ",
+    "kana": "かさむ",
+    "meaning": "tăng vọt (chi phí)",
+    "example": "出費がかさんでいる。",
+    "hanviet": "―",
+    "icon": "📈",
+    "image": ""
+  },
+  {
+    "id": "v_uchiwake",
+    "topicId": "t_kurashi",
+    "jp": "内訳",
+    "kana": "うちわけ",
+    "meaning": "kê chi tiết, khoản mục",
+    "example": "給料の内訳を確認する。",
+    "hanviet": "内訳: Nội dịch",
+    "icon": "📊",
+    "image": ""
+  },
+  {
+    "id": "v_tomobataraki",
+    "topicId": "t_kurashi",
+    "jp": "共働き",
+    "kana": "ともばたらき",
+    "meaning": "vợ chồng cùng đi làm",
+    "example": "共働きしないと生活が苦しい。",
+    "hanviet": "共働: Cộng lao",
+    "icon": "👫",
+    "image": ""
+  },
+  {
+    "id": "v_yarikuri",
+    "topicId": "t_kurashi",
+    "jp": "やり繰り（する）",
+    "kana": "やりくり（する）",
+    "meaning": "xoay sở, quản lý chi tiêu",
+    "example": "生活費をやり繰りする。",
+    "hanviet": "―",
+    "icon": "🔄",
+    "image": ""
+  },
+  {
+    "id": "v_suzumenonamida",
+    "topicId": "t_kurashi",
+    "jp": "すずめの涙",
+    "kana": "すずめのなみだ",
+    "meaning": "ít ỏi, chẳng đáng là bao",
+    "example": "ボーナスはすずめの涙だった。",
+    "hanviet": "―",
+    "icon": "🐦",
+    "image": ""
+  },
+  {
+    "id": "v_gyara",
+    "topicId": "t_kurashi",
+    "jp": "ギャラ",
+    "kana": "ギャラ",
+    "meaning": "thù lao",
+    "example": "アルバイトのギャラが入った。",
+    "hanviet": "―",
+    "icon": "💼",
+    "image": ""
+  },
+  {
+    "id": "v_kyokuryoku",
+    "topicId": "t_kurashi",
+    "jp": "極力",
+    "kana": "きょくりょく",
+    "meaning": "hết sức, cố gắng tối đa",
+    "example": "極力自炊する。",
+    "hanviet": "極力: Cực lực",
+    "icon": "💪",
+    "image": ""
+  },
+  {
+    "id": "v_celeb",
+    "topicId": "t_kurashi",
+    "jp": "セレブ",
+    "kana": "セレブ",
+    "meaning": "người giàu có, sang chảnh",
+    "example": "セレブのように贅沢したい。",
+    "hanviet": "―",
+    "icon": "✨",
+    "image": ""
+  },
+  {
+    "id": "v_yutori",
+    "topicId": "t_kurashi",
+    "jp": "ゆとり",
+    "kana": "ゆとり",
+    "meaning": "dư dả, thoải mái",
+    "example": "心にゆとりを持ちたい。",
+    "hanviet": "―",
+    "icon": "🧘",
+    "image": ""
+  },
+  {
+    "id": "v_marumaru",
+    "topicId": "t_kurashi",
+    "jp": "丸々",
+    "kana": "まるまる",
+    "meaning": "trọn vẹn, nguyên vẹn",
+    "example": "ボーナスを丸々貯金した。",
+    "hanviet": "―",
+    "icon": "⭕",
+    "image": ""
+  },
+  {
+    "id": "v_temoto",
+    "topicId": "t_kurashi",
+    "jp": "手元",
+    "kana": "てもと",
+    "meaning": "trong tay, bên mình",
+    "example": "手元にお金が残らない。",
+    "hanviet": "手元: Thủ nguyên",
+    "icon": "🪙",
+    "image": ""
+  },
+  {
+    "id": "v_futokoro",
+    "topicId": "t_kurashi",
+    "jp": "懐",
+    "kana": "ふところ",
+    "meaning": "túi tiền",
+    "example": "給料が入っても懐が寂しい。",
+    "hanviet": "懐: Hoài",
+    "icon": "👛",
+    "image": ""
+  },
+  {
+    "id": "v_rishi",
+    "topicId": "t_kurashi",
+    "jp": "利子",
+    "kana": "りし",
+    "meaning": "tiền lãi",
+    "example": "銀行に貯金していても、利子は期待できない。",
+    "hanviet": "利子: Lợi tử",
+    "icon": "📈",
+    "image": ""
+  },
+  {
+    "id": "v_waku",
+    "topicId": "t_kurashi",
+    "jp": "枠",
+    "kana": "わく",
+    "meaning": "khung, hạn mức",
+    "example": "部長と私ではボーナスの枠が違う。",
+    "hanviet": "枠: Khuông",
+    "icon": "🧱",
+    "image": ""
+  },
+  {
+    "id": "v_wariai",
+    "topicId": "t_kurashi",
+    "jp": "割合",
+    "kana": "わりあい",
+    "meaning": "tỷ lệ",
+    "example": "貯金がゼロの人の割合が多い。",
+    "hanviet": "割合: Tỷ hợp",
+    "icon": "📊",
+    "image": ""
+  },
+  {
+    "id": "v_kikkari",
+    "topicId": "t_kurashi",
+    "jp": "きっかり",
+    "kana": "きっかり",
+    "meaning": "đúng, chính xác (không hơn kém)",
+    "example": "おこづかいは毎月3万円きっかりだ。",
+    "hanviet": "―",
+    "icon": "⏱️",
+    "image": ""
+  },
+  {
+    "id": "v_kabu",
+    "topicId": "t_kurashi",
+    "jp": "株",
+    "kana": "かぶ",
+    "meaning": "cổ phiếu",
+    "example": "初めて株を買ったが損をした。",
+    "hanviet": "株: Cổ",
+    "icon": "📉",
+    "image": ""
+  },
+  {
+    "id": "v_nandemokandemo",
+    "topicId": "t_kurashi",
+    "jp": "何でもかんでも",
+    "kana": "なんでもかんでも",
+    "meaning": "bất cứ thứ gì, không phân biệt",
+    "example": "何でもかんでも買える金持ちになりたい。",
+    "hanviet": "―",
+    "icon": "🛒",
+    "image": ""
+  },
+  {
+    "id": "v_nandakanda",
+    "topicId": "t_kurashi",
+    "jp": "何だかんだ（と）",
+    "kana": "なんだかんだ（と）",
+    "meaning": "kiểu gì cũng, rốt cuộc thì",
+    "example": "年末は何だかんだと出費が多い。",
+    "hanviet": "―",
+    "icon": "🔁",
+    "image": ""
+  },
+  {
+    "id": "v_hitonami",
+    "topicId": "t_kurashi",
+    "jp": "人並み（な）",
+    "kana": "ひとなみ（な）",
+    "meaning": "bình thường như mọi người",
+    "example": "人並みの暮らしで十分だ。",
+    "hanviet": "人並: Nhân tịnh",
+    "icon": "🙂",
+    "image": ""
+  },
+  {
+    "id": "v_rougo",
+    "topicId": "t_kurashi",
+    "jp": "老後",
+    "kana": "ろうご",
+    "meaning": "tuổi già, về già",
+    "example": "若い頃から老後を考える。",
+    "hanviet": "老後: Lão hậu",
+    "icon": "👵",
+    "image": ""
+  },
+  {
+    "id": "v_tsukiru",
+    "topicId": "t_kurashi",
+    "jp": "尽きる",
+    "kana": "つきる",
+    "meaning": "cạn kiệt",
+    "example": "貯金が尽きないようにする。",
+    "hanviet": "尽: Tận",
+    "icon": "🪫",
+    "image": ""
+  },
+  {
+    "id": "v_tainou",
+    "topicId": "t_kurashi",
+    "jp": "滞納（する）",
+    "kana": "たいのう（する）",
+    "meaning": "chậm nộp, nợ (thuế, tiền)",
+    "example": "税金を滞納して通知が来た。",
+    "hanviet": "滞納: Trệ nạp",
+    "icon": "📮",
+    "image": ""
+  },
+  {
+    "id": "v_kubigamawaranai",
+    "topicId": "t_kurashi",
+    "jp": "首が回らない",
+    "kana": "くびがまわらない",
+    "meaning": "không xoay xở nổi, nợ nần chồng chất",
+    "example": "借金で首が回らなくなりそうだ。",
+    "hanviet": "―",
+    "icon": "😵‍💫",
+    "image": ""
+  },
+   {
+    "id": "v_kaikomu",
+    "topicId": "t_kurashi",
+    "jp": "買い込む",
+    "kana": "かいこむ",
+    "meaning": "mua dự trữ",
+    "example": "台風に備えて食料を買い込んだ。",
+    "hanviet": "買込: Mại nhập",
+    "icon": "🛒",
+    "image": ""
+  },
+  {
+    "id": "v_senchaku",
+    "topicId": "t_kurashi",
+    "jp": "先着（する）",
+    "kana": "せんちゃく（する）",
+    "meaning": "ưu tiên người đến trước",
+    "example": "先着100名の方に限り、卵1パック100円。",
+    "hanviet": "先着: Tiên trước",
+    "icon": "🏃",
+    "image": ""
+  },
+  {
+    "id": "v_campaign",
+    "topicId": "t_kurashi",
+    "jp": "キャンペーン",
+    "kana": "キャンペーン",
+    "meaning": "chiến dịch, khuyến mãi",
+    "example": "割引キャンペーンを実施中だ。",
+    "hanviet": "―",
+    "icon": "📣",
+    "image": ""
+  },
+  {
+    "id": "v_ichiritsu",
+    "topicId": "t_kurashi",
+    "jp": "一律（な）",
+    "kana": "いちりつ（な）",
+    "meaning": "đồng loạt, đồng giá",
+    "example": "料金は一律5千円だ。",
+    "hanviet": "一律: Nhất luật",
+    "icon": "📏",
+    "image": ""
+  },
+  {
+    "id": "v_neuchi",
+    "topicId": "t_kurashi",
+    "jp": "値打ち",
+    "kana": "ねうち",
+    "meaning": "giá trị, đáng giá",
+    "example": "この品は値打ちがある。",
+    "hanviet": "値打: Trị đả",
+    "icon": "💎",
+    "image": ""
+  },
+  {
+    "id": "v_ataisuru",
+    "topicId": "t_kurashi",
+    "jp": "値する",
+    "kana": "あたいする",
+    "meaning": "xứng đáng, đáng giá",
+    "example": "高い値段に値する。",
+    "hanviet": "値: Trị",
+    "icon": "🏷️",
+    "image": ""
+  },
+  {
+    "id": "v_ryoushinteki",
+    "topicId": "t_kurashi",
+    "jp": "良心的（な）",
+    "kana": "りょうしんてき（な）",
+    "meaning": "giá cả phải chăng, thành thật",
+    "example": "良心的な値段で売っている。",
+    "hanviet": "良心: Lương tâm",
+    "icon": "🤝",
+    "image": ""
+  },
+  {
+    "id": "v_shoumi",
+    "topicId": "t_kurashi",
+    "jp": "正味",
+    "kana": "しょうみ",
+    "meaning": "trọng lượng tịnh, phần thực",
+    "example": "正味200グラムだ。",
+    "hanviet": "正味: Chính vị",
+    "icon": "⚖️",
+    "image": ""
+  },
+  {
+    "id": "v_kokusan",
+    "topicId": "t_kurashi",
+    "jp": "国産",
+    "kana": "こくさん",
+    "meaning": "hàng nội địa",
+    "example": "国産の野菜を選ぶ。",
+    "hanviet": "国産: Quốc sản",
+    "icon": "🇯🇵",
+    "image": ""
+  },
+  {
+    "id": "v_zaiko",
+    "topicId": "t_kurashi",
+    "jp": "在庫",
+    "kana": "ざいこ",
+    "meaning": "tồn kho",
+    "example": "在庫がなかった。",
+    "hanviet": "在庫: Tồn khố",
+    "icon": "📦",
+    "image": ""
+  },
+  {
+    "id": "v_yuukou",
+    "topicId": "t_kurashi",
+    "jp": "有効（な）",
+    "kana": "ゆうこう（な）",
+    "meaning": "có hiệu lực",
+    "example": "このカードは有効期限が切れている。",
+    "hanviet": "有効: Hữu hiệu",
+    "icon": "✅",
+    "image": ""
+  },
+  {
+    "id": "v_meigi",
+    "topicId": "t_kurashi",
+    "jp": "名義",
+    "kana": "めいぎ",
+    "meaning": "đứng tên, danh nghĩa",
+    "example": "妻の名義の口座だ。",
+    "hanviet": "名義: Danh nghĩa",
+    "icon": "📝",
+    "image": ""
+  },
+  {
+    "id": "v_ikkatsu",
+    "topicId": "t_kurashi",
+    "jp": "一括（する）",
+    "kana": "いっかつ（する）",
+    "meaning": "trả gọn một lần",
+    "example": "支払いは一括でお願いします。",
+    "hanviet": "一括: Nhất quát",
+    "icon": "💳",
+    "image": ""
+  },
+  {
+    "id": "v_kansan",
+    "topicId": "t_kurashi",
+    "jp": "換算（する）",
+    "kana": "かんさん（する）",
+    "meaning": "quy đổi, chuyển đổi",
+    "example": "ドルを円に換算する。",
+    "hanviet": "換算: Hoán toán",
+    "icon": "🔄",
+    "image": ""
+  },
+  {
+    "id": "v_pinkarakirimade",
+    "topicId": "t_kurashi",
+    "jp": "ピンからキリまで",
+    "kana": "ピンからキリまで",
+    "meaning": "thượng vàng hạ cám",
+    "example": "値段はピンからキリまでだ。",
+    "hanviet": "―",
+    "icon": "🎢",
+    "image": ""
+  },
+  {
+    "id": "v_kiriganai",
+    "topicId": "t_kurashi",
+    "jp": "切りがない",
+    "kana": "きりがない",
+    "meaning": "không có điểm dừng",
+    "example": "欲しがったら切りがない。",
+    "hanviet": "―",
+    "icon": "♾️",
+    "image": ""
+  },
+  {
+    "id": "v_kirigaii",
+    "topicId": "t_kurashi",
+    "jp": "切りがいい",
+    "kana": "きりがいい",
+    "meaning": "làm tròn, dừng đúng chỗ",
+    "example": "切りがいい値段にしてもらった。",
+    "hanviet": "―",
+    "icon": "🔢",
+    "image": ""
+  },
+   {
+    "id": "v_mikaku",
+    "topicId": "t_kurashi",
+    "jp": "味覚",
+    "kana": "みかく",
+    "meaning": "vị giác, khẩu vị",
+    "example": "季節の味覚を楽しむ。",
+    "hanviet": "味覚: Vị giác",
+    "icon": "👅",
+    "image": ""
+  },
+  {
+    "id": "v_amakuchi",
+    "topicId": "t_kurashi",
+    "jp": "甘口",
+    "kana": "あまくち",
+    "meaning": "vị ngọt",
+    "example": "甘口のワインが好きだ。",
+    "hanviet": "甘口: Cam khẩu",
+    "icon": "🍯",
+    "image": ""
+  },
+  {
+    "id": "v_karakuchi",
+    "topicId": "t_kurashi",
+    "jp": "辛口",
+    "kana": "からくち",
+    "meaning": "vị cay, gắt",
+    "example": "辛口の酒が料理に合う。",
+    "hanviet": "辛口: Tân khẩu",
+    "icon": "🌶️",
+    "image": ""
+  },
+  {
+    "id": "v_karatou",
+    "topicId": "t_kurashi",
+    "jp": "辛党",
+    "kana": "からとう",
+    "meaning": "người thích cay / dân nhậu",
+    "example": "父は辛党だ。",
+    "hanviet": "辛党: Tân đảng",
+    "icon": "🍶",
+    "image": ""
+  },
+  {
+    "id": "v_kuwazugirai",
+    "topicId": "t_kurashi",
+    "jp": "食わず嫌い",
+    "kana": "くわずぎらい",
+    "meaning": "ghét dù chưa từng thử",
+    "example": "食わず嫌いはよくない。",
+    "hanviet": "―",
+    "icon": "🙅",
+    "image": ""
+  },
+  {
+    "id": "v_tashinamu",
+    "topicId": "t_kurashi",
+    "jp": "たしなむ",
+    "kana": "たしなむ",
+    "meaning": "biết thưởng thức (ở mức vừa phải)",
+    "example": "お酒はたしなむ程度だ。",
+    "hanviet": "―",
+    "icon": "🍷",
+    "image": ""
+  },
+  {
+    "id": "v_sukuu",
+    "topicId": "t_kurashi",
+    "jp": "すくう",
+    "kana": "すくう",
+    "meaning": "múc, vớt",
+    "example": "スープをすくう。",
+    "hanviet": "―",
+    "icon": "🥄",
+    "image": ""
+  },
+  {
+    "id": "v_susuru",
+    "topicId": "t_kurashi",
+    "jp": "すする",
+    "kana": "すする",
+    "meaning": "húp xì xụp",
+    "example": "そばをすすって食べる。",
+    "hanviet": "―",
+    "icon": "🍜",
+    "image": ""
+  },
+  {
+    "id": "v_tsutsuku",
+    "topicId": "t_kurashi",
+    "jp": "つつく",
+    "kana": "つつく",
+    "meaning": "chọc, chạm liên tục",
+    "example": "箸で料理をつつかないで。",
+    "hanviet": "―",
+    "icon": "🥢",
+    "image": ""
+  },
+  {
+    "id": "v_kamikiru",
+    "topicId": "t_kurashi",
+    "jp": "噛み切る",
+    "kana": "かみきる",
+    "meaning": "cắn đứt",
+    "example": "肉が固くてかみきれない。",
+    "hanviet": "噛切: Giảo thiết",
+    "icon": "🦷",
+    "image": ""
+  },
+  {
+    "id": "v_nomikomu",
+    "topicId": "t_kurashi",
+    "jp": "飲み込む",
+    "kana": "のみこむ",
+    "meaning": "nuốt, tiếp thu, hiểu",
+    "example": "コツをすぐ飲み込む。",
+    "hanviet": "飲込: Ẩm nhập",
+    "icon": "🧠",
+    "image": ""
+  },
+  {
+    "id": "v_gokugoku",
+    "topicId": "t_kurashi",
+    "jp": "ごくごく（と）",
+    "kana": "ごくごく（と）",
+    "meaning": "uống ừng ực",
+    "example": "水をごくごく飲む。",
+    "hanviet": "―",
+    "icon": "🚰",
+    "image": ""
+  },
+  {
+    "id": "v_nokorazu",
+    "topicId": "t_kurashi",
+    "jp": "残らず",
+    "kana": "のこらず",
+    "meaning": "không chừa lại gì",
+    "example": "料理を残らず食べた。",
+    "hanviet": "残: Tàn",
+    "icon": "🍽️",
+    "image": ""
+  },
+  {
+    "id": "v_toriwake",
+    "topicId": "t_kurashi",
+    "jp": "とりわけ",
+    "kana": "とりわけ",
+    "meaning": "đặc biệt là",
+    "example": "とりわけ牛肉が好きだ。",
+    "hanviet": "―",
+    "icon": "⭐",
+    "image": ""
+  },
+  {
+    "id": "v_hitasura",
+    "topicId": "t_kurashi",
+    "jp": "ひたすら",
+    "kana": "ひたすら",
+    "meaning": "chỉ chăm chăm, tập trung",
+    "example": "ひたすら食べる。",
+    "hanviet": "―",
+    "icon": "🍴",
+    "image": ""
+  },
+  {
+    "id": "v_shinabiru",
+    "topicId": "t_kurashi",
+    "jp": "しなびる",
+    "kana": "しなびる",
+    "meaning": "héo, không còn tươi",
+    "example": "野菜がしなびている。",
+    "hanviet": "―",
+    "icon": "🥬",
+    "image": ""
+  },
+  {
+    "id": "v_nebaru",
+    "topicId": "t_kurashi",
+    "jp": "粘る",
+    "kana": "ねばる",
+    "meaning": "dính, nhờn",
+    "example": "納豆はよく粘る。",
+    "hanviet": "粘: Niêm",
+    "icon": "🫘",
+    "image": ""
+  },
+  {
+    "id": "v_fukureru",
+    "topicId": "t_kurashi",
+    "jp": "膨れる",
+    "kana": "ふくれる",
+    "meaning": "phồng lên, căng ra",
+    "example": "食べ過ぎてお腹が膨れた。",
+    "hanviet": "膨: Bành",
+    "icon": "😋",
+    "image": ""
+  },
+  {
+    "id": "v_katayoru",
+    "topicId": "t_kurashi",
+    "jp": "偏る",
+    "kana": "かたよる",
+    "meaning": "thiếu cân bằng",
+    "example": "栄養が偏っている。",
+    "hanviet": "偏: Thiên",
+    "icon": "⚖️",
+    "image": ""
+  },
+  {
+    "id": "v_soeru",
+    "topicId": "t_kurashi",
+    "jp": "添える",
+    "kana": "そえる",
+    "meaning": "kèm theo",
+    "example": "料理に野菜を添える。",
+    "hanviet": "添: Thiêm",
+    "icon": "🥕",
+    "image": ""
+  },
+  {
+    "id": "v_machimachi",
+    "topicId": "t_kurashi",
+    "jp": "まちまち",
+    "kana": "まちまち",
+    "meaning": "thất thường, không đều",
+    "example": "食事の時間はまちまちだ。",
+    "hanviet": "―",
+    "icon": "⏰",
+    "image": ""
+  },
+  {
+    "id": "v_zanmai",
+    "topicId": "t_kurashi",
+    "jp": "三昧",
+    "kana": "さんまい",
+    "meaning": "đắm chìm, toàn là",
+    "example": "秋の味覚三昧だ。",
+    "hanviet": "三昧: Tam muội",
+    "icon": "🍁",
+    "image": ""
+  },
+   {
+    "id": "v_kokorogakeru",
+    "topicId": "t_kurashi",
+    "jp": "心掛ける",
+    "kana": "こころがける",
+    "meaning": "lưu tâm, chú ý thực hiện",
+    "example": "健康のため、早寝早起きを心掛けている。",
+    "hanviet": "心掛: Tâm quải",
+    "icon": "🧠",
+    "image": ""
+  },
+  {
+    "id": "v_mekuru",
+    "topicId": "t_kurashi",
+    "jp": "めくる",
+    "kana": "めくる",
+    "meaning": "lật, giở (trang)",
+    "example": "朝起きると、カレンダーをめくる。",
+    "hanviet": "―",
+    "icon": "📅",
+    "image": ""
+  },
+  {
+    "id": "v_mezameru",
+    "topicId": "t_kurashi",
+    "jp": "目覚める",
+    "kana": "めざめる",
+    "meaning": "thức giấc, tỉnh dậy",
+    "example": "毎朝6時に目覚める。",
+    "hanviet": "目覚: Mục giác",
+    "icon": "⏰",
+    "image": ""
+  },
+  {
+    "id": "v_stretch",
+    "topicId": "t_kurashi",
+    "jp": "ストレッチ",
+    "kana": "ストレッチ",
+    "meaning": "giãn cơ, thư giãn cơ thể",
+    "example": "ベッドでストレッチをして目覚める。",
+    "hanviet": "―",
+    "icon": "🧘‍♀️",
+    "image": ""
+  },
+  {
+    "id": "v_hagu",
+    "topicId": "t_kurashi",
+    "jp": "剥ぐ",
+    "kana": "はぐ",
+    "meaning": "lột, kéo ra",
+    "example": "子どもの布団を剥いで起こす。",
+    "hanviet": "剥: Bác",
+    "icon": "🛏️",
+    "image": ""
+  },
+  {
+    "id": "v_aiken",
+    "topicId": "t_kurashi",
+    "jp": "愛犬",
+    "kana": "あいけん",
+    "meaning": "chó cưng",
+    "example": "朝、愛犬と散歩する。",
+    "hanviet": "愛犬: Ái khuyển",
+    "icon": "🐕",
+    "image": ""
+  },
+  {
+    "id": "v_shippo",
+    "topicId": "t_kurashi",
+    "jp": "しっぽ",
+    "kana": "しっぽ",
+    "meaning": "đuôi",
+    "example": "犬がしっぽを振る。",
+    "hanviet": "―",
+    "icon": "🐾",
+    "image": ""
+  },
+  {
+    "id": "v_nagatsuzuki",
+    "topicId": "t_kurashi",
+    "jp": "長続き（する）",
+    "kana": "ながつづき（する）",
+    "meaning": "kéo dài, duy trì được lâu",
+    "example": "運動がなかなか長続きしない。",
+    "hanviet": "長続: Trường tục",
+    "icon": "🔁",
+    "image": ""
+  },
+  {
+    "id": "v_mikkabouzu",
+    "topicId": "t_kurashi",
+    "jp": "三日坊主",
+    "kana": "みっかぼうず",
+    "meaning": "cà thèm chóng chán",
+    "example": "三日坊主の性格だ。",
+    "hanviet": "三日坊主: Tam nhật hòa thượng",
+    "icon": "⏳",
+    "image": ""
+  },
+  {
+    "id": "v_jizoku",
+    "topicId": "t_kurashi",
+    "jp": "持続（する）",
+    "kana": "じぞく（する）",
+    "meaning": "duy trì",
+    "example": "効果が持続しない。",
+    "hanviet": "持続: Trì tục",
+    "icon": "📈",
+    "image": ""
+  },
+  {
+    "id": "v_touban",
+    "topicId": "t_kurashi",
+    "jp": "当番",
+    "kana": "とうばん",
+    "meaning": "đến lượt trực",
+    "example": "掃除の当番だ。",
+    "hanviet": "当番: Đương ban",
+    "icon": "🧹",
+    "image": ""
+  },
+  {
+    "id": "v_ogamu",
+    "topicId": "t_kurashi",
+    "jp": "拝む",
+    "kana": "おがむ",
+    "meaning": "cúi lạy, thờ lạy",
+    "example": "仏壇に手を合わせて拝む。",
+    "hanviet": "拝: Bái",
+    "icon": "🙏",
+    "image": ""
+  },
+  {
+    "id": "v_goldentime",
+    "topicId": "t_kurashi",
+    "jp": "ゴールデンタイム",
+    "kana": "ゴールデンタイム",
+    "meaning": "giờ vàng",
+    "example": "夜はゴールデンタイムにテレビを見る。",
+    "hanviet": "―",
+    "icon": "📺",
+    "image": ""
+  },
+  {
+    "id": "v_okotaru",
+    "topicId": "t_kurashi",
+    "jp": "怠る",
+    "kana": "おこたる",
+    "meaning": "lơ là, xao nhãng",
+    "example": "掃除を怠ってしまった。",
+    "hanviet": "怠: Đãi",
+    "icon": "😪",
+    "image": ""
+  },
+  {
+    "id": "v_tsukaru",
+    "topicId": "t_kurashi",
+    "jp": "浸かる",
+    "kana": "つかる",
+    "meaning": "ngâm mình",
+    "example": "お風呂で5分浸かる。",
+    "hanviet": "浸: Tẩm",
+    "icon": "🛁",
+    "image": ""
+  },
+  {
+    "id": "v_sakadachi",
+    "topicId": "t_kurashi",
+    "jp": "逆立ち（する）",
+    "kana": "さかだち（する）",
+    "meaning": "trồng cây chuối",
+    "example": "毎日逆立ちをする。",
+    "hanviet": "逆立: Nghịch lập",
+    "icon": "🤸",
+    "image": ""
+  },
+  {
+    "id": "v_midareru",
+    "topicId": "t_kurashi",
+    "jp": "乱れる",
+    "kana": "みだれる",
+    "meaning": "xáo trộn, rối loạn",
+    "example": "生活のリズムが乱れる。",
+    "hanviet": "乱: Loạn",
+    "icon": "🌪️",
+    "image": ""
+  },
+  {
+    "id": "v_blog",
+    "topicId": "t_kurashi",
+    "jp": "ブログ",
+    "kana": "ブログ",
+    "meaning": "blog, nhật ký trực tuyến",
+    "example": "出来事をブログに書く。",
+    "hanviet": "―",
+    "icon": "📝",
+    "image": ""
+  },
+  {
+    "id": "v_toukou",
+    "topicId": "t_kurashi",
+    "jp": "投稿（する）",
+    "kana": "とうこう（する）",
+    "meaning": "đăng bài",
+    "example": "写真を投稿する。",
+    "hanviet": "投稿: Đầu cảo",
+    "icon": "📤",
+    "image": ""
+  },
+  {
+    "id": "v_toritateru",
+    "topicId": "t_kurashi",
+    "jp": "取り立てる",
+    "kana": "とりたてる",
+    "meaning": "đáng kể, đáng nhắc tới",
+    "example": "取り立てて言うことはない。",
+    "hanviet": "取立: Thủ lập",
+    "icon": "📌",
+    "image": ""
+  },
+  {
+    "id": "v_minomawari",
+    "topicId": "t_kurashi",
+    "jp": "身の回り",
+    "kana": "みのまわり",
+    "meaning": "xung quanh bản thân",
+    "example": "身の回りのことをきちんとする。",
+    "hanviet": "身回: Thân hồi",
+    "icon": "🧺",
+    "image": ""
+  },
+  {
+    "id": "v_jissen",
+    "topicId": "t_kurashi",
+    "jp": "実践（する）",
+    "kana": "じっせん（する）",
+    "meaning": "thực hành",
+    "example": "決めたことを実践する。",
+    "hanviet": "実践: Thực tiễn",
+    "icon": "✅",
+    "image": ""
+  },
+  {
+    "id": "v_shuujitsu",
+    "topicId": "t_kurashi",
+    "jp": "終日",
+    "kana": "しゅうじつ",
+    "meaning": "cả ngày",
+    "example": "昨日は終日出かけていた。",
+    "hanviet": "終日: Chung nhật",
+    "icon": "📆",
+    "image": ""
+  },
+  {
+    "id": "v_shirokujichuu",
+    "topicId": "t_kurashi",
+    "jp": "四六時中",
+    "kana": "しろくじちゅう",
+    "meaning": "suốt ngày, lúc nào cũng",
+    "example": "四六時中スマホを見ている。",
+    "hanviet": "四六時中: Tứ lục thì trung",
+    "icon": "⏳",
+    "image": ""
+  },
+  {
+    "id": "v_nichiya",
+    "topicId": "t_kurashi",
+    "jp": "日夜",
+    "kana": "にちや",
+    "meaning": "ngày đêm",
+    "example": "彼は日夜働いている。",
+    "hanviet": "日夜: Nhật dạ",
+    "icon": "🌗",
+    "image": ""
+  },
+  {
+    "id": "v_hibi",
+    "topicId": "t_kurashi",
+    "jp": "日々",
+    "kana": "ひび",
+    "meaning": "mỗi ngày, hằng ngày",
+    "example": "日々の暮らしを大切にしている。",
+    "hanviet": "日々: Nhật nhật",
+    "icon": "🌱",
+    "image": ""
+  },
+  {
+    "id": "v_yuuyami",
+    "topicId": "t_kurashi",
+    "jp": "夕闇",
+    "kana": "ゆうやみ",
+    "meaning": "chạng vạng tối, hoàng hôn",
+    "example": "夕闇が街を包み始めた。",
+    "hanviet": "夕闇: Tịch ám",
+    "icon": "🌆",
+    "image": ""
+  },
+  {
+    "id": "v_kureru",
+    "topicId": "t_kurashi",
+    "jp": "暮れる",
+    "kana": "くれる",
+    "meaning": "lặn (mặt trời), tối dần",
+    "example": "日が暮れる頃に帰る。",
+    "hanviet": "暮: Mộ",
+    "icon": "🌇",
+    "image": ""
+  },
+  {
+    "id": "v_nichibotsu",
+    "topicId": "t_kurashi",
+    "jp": "日没",
+    "kana": "にちぼつ",
+    "meaning": "mặt trời lặn",
+    "example": "日没が早くなった。",
+    "hanviet": "日没: Nhật một",
+    "icon": "🌅",
+    "image": ""
+  },
+  {
+    "id": "v_yabun",
+    "topicId": "t_kurashi",
+    "jp": "夜分",
+    "kana": "やぶん",
+    "meaning": "đêm khuya (lịch sự)",
+    "example": "夜分に失礼します。",
+    "hanviet": "夜分: Dạ phân",
+    "icon": "🌙",
+    "image": ""
+  },
+  {
+    "id": "v_yofuke",
+    "topicId": "t_kurashi",
+    "jp": "夜更け",
+    "kana": "よふけ",
+    "meaning": "khuya",
+    "example": "夜更けまで起きていた。",
+    "hanviet": "夜更: Dạ canh",
+    "icon": "🌌",
+    "image": ""
+  },
+  {
+    "id": "v_fukeru",
+    "topicId": "t_kurashi",
+    "jp": "更ける",
+    "kana": "ふける",
+    "meaning": "về khuya",
+    "example": "夜が更けて静かになった。",
+    "hanviet": "更: Canh",
+    "icon": "🤫",
+    "image": ""
+  },
+  {
+    "id": "v_mimei",
+    "topicId": "t_kurashi",
+    "jp": "未明",
+    "kana": "みめい",
+    "meaning": "rạng sáng, gần sáng",
+    "example": "事件は未明に起きた。",
+    "hanviet": "未明: Vị minh",
+    "icon": "🌄",
+    "image": ""
+  },
+  {
+    "id": "v_sakigoro",
+    "topicId": "t_kurashi",
+    "jp": "先頃",
+    "kana": "さきごろ",
+    "meaning": "mới đây, hôm trước",
+    "example": "先頃はありがとうございました。",
+    "hanviet": "先頃: Tiên khoảnh",
+    "icon": "🕰️",
+    "image": ""
+  },
+  {
+    "id": "v_tokiori",
+    "topicId": "t_kurashi",
+    "jp": "時折",
+    "kana": "ときおり",
+    "meaning": "thỉnh thoảng",
+    "example": "友人が時折訪ねてくる。",
+    "hanviet": "時折: Thời chiết",
+    "icon": "🔁",
+    "image": ""
+  },
+  {
+    "id": "v_yasaki",
+    "topicId": "t_kurashi",
+    "jp": "矢先",
+    "kana": "やさき",
+    "meaning": "ngay lúc chuẩn bị",
+    "example": "出かけようとした矢先に雨が降った。",
+    "hanviet": "矢先: Thỉ tiên",
+    "icon": "🎯",
+    "image": ""
+  },
+  {
+    "id": "v_naganaga",
+    "topicId": "t_kurashi",
+    "jp": "長々（と）",
+    "kana": "ながなが（と）",
+    "meaning": "dài dòng, lê thê",
+    "example": "長々と電話で話した。",
+    "hanviet": "長々: Trường trường",
+    "icon": "📞",
+    "image": ""
+  },
+  {
+    "id": "v_kakugetsu",
+    "topicId": "t_kurashi",
+    "jp": "隔月",
+    "kana": "かくげつ",
+    "meaning": "cách tháng",
+    "example": "雑誌は隔月刊だ。",
+    "hanviet": "隔月: Cách nguyệt",
+    "icon": "🗓️",
+    "image": ""
+  },
+  {
+    "id": "v_kakushuu",
+    "topicId": "t_kurashi",
+    "jp": "隔週",
+    "kana": "かくしゅう",
+    "meaning": "cách tuần",
+    "example": "隔週で休みがある。",
+    "hanviet": "隔週: Cách chu",
+    "icon": "📅",
+    "image": ""
+  },
+  {
+    "id": "v_kakujitsu",
+    "topicId": "t_kurashi",
+    "jp": "隔日",
+    "kana": "かくじつ",
+    "meaning": "cách ngày",
+    "example": "隔日勤務だ。",
+    "hanviet": "隔日: Cách nhật",
+    "icon": "📆",
+    "image": ""
+  },
+  {
+    "id": "v_kitaru",
+    "topicId": "t_kurashi",
+    "jp": "来たる",
+    "kana": "きたる",
+    "meaning": "sắp tới (văn viết)",
+    "example": "来たる5月10日に行事がある。",
+    "hanviet": "来: Lai",
+    "icon": "➡️",
+    "image": ""
+  },
+  {
+    "id": "v_saru",
+    "topicId": "t_kurashi",
+    "jp": "去る",
+    "kana": "さる",
+    "meaning": "vừa qua (văn viết)",
+    "example": "去る日曜日に大会が行われた。",
+    "hanviet": "去: Khứ",
+    "icon": "⬅️",
+    "image": ""
+  },
+  {
+    "id": "v_gaikan",
+    "topicId": "t_kurashi",
+    "jp": "外観",
+    "kana": "がいかん",
+    "meaning": "ngoại quan, bề ngoài",
+    "example": "外観に惹かれてこの家を選んだが、内部は意外に狭かった。",
+    "hanviet": "外観: Ngoại quan",
+    "icon": "🏠",
+    "image": ""
+  },
+  {
+    "id": "v_sekkei",
+    "topicId": "t_kurashi",
+    "jp": "設計",
+    "kana": "せっけい",
+    "meaning": "thiết kế",
+    "example": "建築家に家を設計してもらった。",
+    "hanviet": "設計: Thiết kế",
+    "icon": "📐",
+    "image": ""
+  },
+  {
+    "id": "v_zuan",
+    "topicId": "t_kurashi",
+    "jp": "図案",
+    "kana": "ずあん",
+    "meaning": "bản vẽ, họa tiết thiết kế",
+    "example": "このじゅうたんの図案は妻が作った。",
+    "hanviet": "図案: Đồ án",
+    "icon": "🎨",
+    "image": ""
+  },
+  {
+    "id": "v_koru",
+    "topicId": "t_kurashi",
+    "jp": "凝る",
+    "kana": "こる",
+    "meaning": "chăm chút, cầu kỳ",
+    "example": "家の随所に凝ったデザインが見られる。",
+    "hanviet": "凝: Ngưng",
+    "icon": "✨",
+    "image": ""
+  },
+  {
+    "id": "v_dodai",
+    "topicId": "t_kurashi",
+    "jp": "土台",
+    "kana": "どだい",
+    "meaning": "nền móng, cơ sở",
+    "example": "建物の土台をしっかり作る。",
+    "hanviet": "土台: Thổ đài",
+    "icon": "🧱",
+    "image": ""
+  },
+  {
+    "id": "v_madori",
+    "topicId": "t_kurashi",
+    "jp": "間取り",
+    "kana": "まどり",
+    "meaning": "bố cục phòng, sơ đồ nhà",
+    "example": "家事動線を考えた間取りだ。",
+    "hanviet": "間取: Gian thủ",
+    "icon": "🗺️",
+    "image": ""
+  },
+  {
+    "id": "v_setsubi",
+    "topicId": "t_kurashi",
+    "jp": "設備",
+    "kana": "せつび",
+    "meaning": "trang thiết bị, tiện nghi",
+    "example": "最新の設備を備えた住宅。",
+    "hanviet": "設備: Thiết bị",
+    "icon": "🔧",
+    "image": ""
+  },
+  {
+    "id": "v_seiyaku",
+    "topicId": "t_kurashi",
+    "jp": "制約",
+    "kana": "せいやく",
+    "meaning": "hạn chế, ràng buộc",
+    "example": "建築には多くの制約がある。",
+    "hanviet": "制約: Chế ước",
+    "icon": "⛔",
+    "image": ""
+  },
+  {
+    "id": "v_tokuyuu",
+    "topicId": "t_kurashi",
+    "jp": "特有",
+    "kana": "とくゆう",
+    "meaning": "đặc trưng, riêng có",
+    "example": "和室には日本特有の様式がある。",
+    "hanviet": "特有: Đặc hữu",
+    "icon": "🎎",
+    "image": ""
+  },
+  {
+    "id": "v_kaizou",
+    "topicId": "t_kurashi",
+    "jp": "改造",
+    "kana": "かいぞう",
+    "meaning": "cải tạo (thay đổi công năng)",
+    "example": "納戸を改造して書斎にした。",
+    "hanviet": "改造: Cải tạo",
+    "icon": "🔨",
+    "image": ""
+  },
+  {
+    "id": "v_kaichiku",
+    "topicId": "t_kurashi",
+    "jp": "改築",
+    "kana": "かいちく",
+    "meaning": "xây sửa lại, mở rộng cấu trúc",
+    "example": "キッチンを改築して広くした。",
+    "hanviet": "改築: Cải trúc",
+    "icon": "🏗️",
+    "image": ""
+  },
+  {
+    "id": "v_suetsukeru",
+    "topicId": "t_kurashi",
+    "jp": "据え付ける",
+    "kana": "すえつける",
+    "meaning": "lắp đặt cố định",
+    "example": "食器棚をキッチンに据え付けた。",
+    "hanviet": "据付: Cư phó",
+    "icon": "🪑",
+    "image": ""
+  },
+  {
+    "id": "v_hokyou",
+    "topicId": "t_kurashi",
+    "jp": "補強",
+    "kana": "ほきょう",
+    "meaning": "gia cố, tăng cường độ chắc",
+    "example": "地震に備えて家を補強した。",
+    "hanviet": "補強: Bổ cường",
+    "icon": "🛡️",
+    "image": ""
+  },
+  {
+    "id": "v_kaishuu",
+    "topicId": "t_kurashi",
+    "jp": "改修",
+    "kana": "かいしゅう",
+    "meaning": "tu sửa, cải tạo (quy mô vừa)",
+    "example": "エレベーターを改修する。",
+    "hanviet": "改修: Cải tu",
+    "icon": "🧰",
+    "image": ""
+  },
+  {
+    "id": "v_doukyou",
+    "topicId": "t_kurashi",
+    "jp": "同居",
+    "kana": "どうきょ",
+    "meaning": "sống chung",
+    "example": "両親と同居することになった。",
+    "hanviet": "同居: Đồng cư",
+    "icon": "👨‍👩‍👧‍👦",
+    "image": ""
+  },
+  {
+    "id": "v_kyojuu",
+    "topicId": "t_kurashi",
+    "jp": "居住",
+    "kana": "きょじゅう",
+    "meaning": "cư trú, sinh sống",
+    "example": "この建物は居住者専用だ。",
+    "hanviet": "居住: Cư trú",
+    "icon": "🏡",
+    "image": ""
+  },
+  {
+    "id": "v_shoyuu",
+    "topicId": "t_kurashi",
+    "jp": "所有",
+    "kana": "しょゆう",
+    "meaning": "sở hữu",
+    "example": "家の所有者を確認した。",
+    "hanviet": "所有: Sở hữu",
+    "icon": "📜",
+    "image": ""
+  },
+  {
+    "id": "v_goutei",
+    "topicId": "t_kurashi",
+    "jp": "豪邸",
+    "kana": "ごうてい",
+    "meaning": "biệt thự, dinh thự lớn",
+    "example": "近所にセレブの豪邸ができた。",
+    "hanviet": "豪邸: Hào để",
+    "icon": "🏰",
+    "image": ""
+  },
+  {
+    "id": "v_hyousatsu",
+    "topicId": "t_kurashi",
+    "jp": "表札",
+    "kana": "ひょうさつ",
+    "meaning": "bảng tên (gắn trước nhà)",
+    "example": "表札に防犯のため家族全員の名前を載せないほうがいい。",
+    "hanviet": "表札: Biểu trát",
+    "icon": "📛",
+    "image": ""
+  },
+  {
+    "id": "v_barrierfree",
+    "topicId": "t_kurashi",
+    "jp": "バリアフリー",
+    "kana": "",
+    "meaning": "không chướng ngại, thân thiện",
+    "example": "祖母のために家をバリアフリーにした。",
+    "hanviet": "—",
+    "icon": "♿",
+    "image": ""
+  },
+  {
+    "id": "v_tojimari",
+    "topicId": "t_kurashi",
+    "jp": "戸締まり",
+    "kana": "とじまり",
+    "meaning": "việc đóng và khóa cửa",
+    "example": "寝る前に戸締まりを確かめた。",
+    "hanviet": "戸締まり: Hộ đế",
+    "icon": "🔐",
+    "image": ""
+  },
+  {
+    "id": "v_monokage",
+    "topicId": "t_kurashi",
+    "jp": "物陰",
+    "kana": "ものかげ",
+    "meaning": "chỗ khuất, nơi khuất tầm nhìn",
+    "example": "物陰に誰かが隠れているようで怖い。",
+    "hanviet": "物陰: Vật âm",
+    "icon": "🌑",
+    "image": ""
+  },
+  {
+    "id": "v_kinrin",
+    "topicId": "t_kurashi",
+    "jp": "近隣",
+    "kana": "きんりん",
+    "meaning": "khu vực lân cận, hàng xóm xung quanh",
+    "example": "近隣の住民が集まって防犯について話し合った。",
+    "hanviet": "近隣: Cận lân",
+    "icon": "🏘️",
+    "image": ""
+  },
+  {
+    "id": "v_yochi",
+    "topicId": "t_kurashi",
+    "jp": "余地",
+    "kana": "よち",
+    "meaning": "chỗ trống, dư địa, khả năng còn lại",
+    "example": "この設計では駐車場を作る余地がない。",
+    "hanviet": "余地: Dư địa",
+    "icon": "📐",
+    "image": ""
+  },
+  {
+    "id": "v_tachiyoru",
+    "topicId": "t_kurashi",
+    "jp": "立ち寄る",
+    "kana": "たちよる",
+    "meaning": "ghé vào, tạt qua",
+    "example": "この辺は警察が立ち寄ることが多い。",
+    "hanviet": "立ち寄る: Lập ký",
+    "icon": "🚓",
+    "image": ""
+  },
+  {
+    "id": "v_tekipaki",
+    "topicId": "t_kurashi",
+    "jp": "てきぱき",
+    "kana": "",
+    "meaning": "nhanh nhẹn, gọn gàng, tháo vát",
+    "example": "彼女は家事をてきぱきとこなしている。",
+    "hanviet": "—",
+    "icon": "⚡",
+    "image": ""
+  },
+  {
+    "id": "v_fukaketsu",
+    "topicId": "t_kurashi",
+    "jp": "不可欠",
+    "kana": "ふかけつ",
+    "meaning": "không thể thiếu",
+    "example": "車は生活に不可欠な物だ。",
+    "hanviet": "不可欠: Bất khả khuyết",
+    "icon": "❗",
+    "image": ""
+  },
+  {
+    "id": "v_ookata",
+    "topicId": "t_kurashi",
+    "jp": "おおかた／おおよそ",
+    "kana": "",
+    "meaning": "gần như, đại khái",
+    "example": "この家の建築はおおかた終わった。",
+    "hanviet": "—",
+    "icon": "📊",
+    "image": ""
+  }
+],
+  "state": {
+    "players": [],
+    "settings": {
+      "timerSeconds": 10,
+      "boardSize": 5,
+      "dealMode": "ALL",
+      "dealK": 11,
+      "difficulty": 1
+    },
+    "ui": {
+      "historyVisible": false
+    },
+    "board": {
+      "topicIdActive": "t_home",
+      "tiles": [
+        {
+          "tileId": "t1",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 1,
+          "openedAt": 1770274879488
+        },
+        {
+          "tileId": "t2",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 1,
+          "openedAt": 1770274883004
+        },
+        {
+          "tileId": "t3",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t4",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t5",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t6",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t7",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 2,
+          "openedAt": 1770274884545
+        },
+        {
+          "tileId": "t8",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t9",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t10",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t11",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t12",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t13",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t14",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t15",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t16",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t17",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t18",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t19",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t20",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t21",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t22",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t23",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t24",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t25",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        }
+      ]
+    },
+    "dealing": {
+      "leaderBag": [],
+      "leaderDrawn": [],
+      "rounds": []
+    }
+  }
+}

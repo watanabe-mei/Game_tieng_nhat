@@ -1,0 +1,506 @@
+<!-- file: index.html -->
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111111" />
+    <title>Ôn từ vựng Nhật</title>
+
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="card">
+        <div class="headerRow">
+          <div class="flex">
+            <span class="badge"><b>Offline</b></span>
+            <span class="badge"
+              ><b>Chủ đề:</b> <span id="topicActive">-</span></span
+            >
+            <span class="badge"
+              ><b>Timer:</b> <span id="timerLabel">10</span>s</span
+            >
+            <span class="badge"
+              ><b>Vocab:</b> <span id="vocabCount">0</span></span
+            >
+            <span class="badge"
+              ><b>Topics:</b> <span id="topicCount">0</span></span
+            >
+            <span class="badge"
+              ><b>Người chơi:</b> <span id="playerCount">0</span></span
+            >
+            <span class="badge"
+              ><b>Độ khó:</b> <span id="difficultyLabel">1</span></span
+            >
+          </div>
+
+          <div class="flex">
+            <button
+              class="btn tab"
+              id="btnOpenSettings"
+              data-panel="panelSettings"
+            >
+              Thiết lập
+            </button>
+            <button class="btn tab" id="btnOpenTopics" data-panel="panelTopics">
+              Chủ đề
+            </button>
+            <button class="btn tab" id="btnOpenVocab" data-panel="panelVocab">
+              Từ vựng
+            </button>
+            <button class="btn tab" id="btnOpenIO" data-panel="panelIO">
+              Import/Export
+            </button>
+            <button class="btn" id="btnResetAll">Reset</button>
+          </div>
+        </div>
+
+        <div class="hint">
+          v6.6.2: Panels mở ngay dưới header (toggle tabs) + Board mode
+          AUTO/SQUARE.
+        </div>
+      </div>
+
+      <!-- Panels (Top) -->
+      <div class="panelStack" id="panelStackTop">
+        <!-- Settings -->
+        <div id="panelSettings" class="card hidden">
+          <div class="panelHeader">
+            <h3>Thiết lập</h3>
+            <button class="btn" data-close="panelSettings">Đóng</button>
+          </div>
+
+          <div class="twoCols">
+            <div>
+              <div class="small">Timer (1–120s)</div>
+              <input
+                class="input"
+                type="number"
+                min="1"
+                max="120"
+                id="timerInput"
+                value="10"
+              />
+            </div>
+
+            <div>
+              <div class="small">Board mode</div>
+              <select class="select" id="boardModeSelect">
+                <option value="AUTO">
+                  AUTO (tự tính số ô theo vocab topic)
+                </option>
+                <option value="SQUARE">SQUARE (N x N)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small" id="boardSizeLabel">Kích thước bảng</div>
+              <input
+                class="input"
+                type="number"
+                min="3"
+                max="30"
+                id="boardSizeInput"
+                value="10"
+              />
+              <div class="hint" id="boardSizeHint">
+                AUTO: đây là số cột hiển thị.
+              </div>
+            </div>
+
+            <div>
+              <div class="small">Độ khó (1–6)</div>
+              <select class="select" id="difficultySelect">
+                <option value="1">1 — Dễ nhất: 1 từ / ô</option>
+                <option value="2">2 — 2 từ / ô</option>
+                <option value="3">3 — 3 từ / ô</option>
+                <option value="4">4 — 1–3 từ / ô + thêm ngữ pháp</option>
+                <option value="5">5 — 1–3 từ / ô + thêm chữ Hán</option>
+                <option value="6">
+                  6 — Cao nhất: 1–3 từ / ô + random ngữ pháp/chữ Hán
+                </option>
+              </select>
+
+              <div class="hint">
+                Cấp 6: mỗi ô random: không add-on / chỉ ngữ pháp / chỉ chữ Hán /
+                cả hai.
+              </div>
+            </div>
+          </div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small">Chế độ phát phiếu</div>
+              <select class="select" id="dealMode">
+                <option value="ALL">ALL: phát cho tất cả (1..N-1)</option>
+                <option value="TOPK">TOP-K: phát 1..K (tùy buổi học)</option>
+              </select>
+            </div>
+
+            <div>
+              <div class="small">K (chỉ dùng TOP-K)</div>
+              <input
+                class="input"
+                type="number"
+                min="1"
+                max="999999"
+                id="dealK"
+                value="10"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Topics -->
+        <div id="panelTopics" class="card hidden">
+          <div class="panelHeader">
+            <h3>Chủ đề</h3>
+            <button class="btn" data-close="panelTopics">Đóng</button>
+          </div>
+
+          <div class="hint">
+            Chủ đề độc lập với vocab. Có icon (emoji) hoặc ảnh local. Labels
+            dùng ở stage 0.
+          </div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small">Tên chủ đề</div>
+              <input
+                class="input"
+                id="topicName"
+                placeholder="VD: Động vật / Địa danh / ..."
+              />
+            </div>
+
+            <div>
+              <div class="small">Icon (emoji)</div>
+              <input class="input" id="topicIcon" placeholder="VD: 🐾" />
+            </div>
+          </div>
+
+          <div style="margin-top: 10px">
+            <div class="small">Ảnh chủ đề (đường dẫn local)</div>
+            <input
+              class="input"
+              id="topicImage"
+              placeholder="VD: images/topics/animals.jpg"
+            />
+          </div>
+
+          <div class="flex" style="margin-top: 10px">
+            <button class="btn primary" id="btnAddTopic">Thêm chủ đề</button>
+            <button class="btn" id="btnClearTopicForm">Xóa form</button>
+          </div>
+
+          <hr />
+          <div id="topicsTable"></div>
+        </div>
+
+        <!-- Vocab -->
+        <div id="panelVocab" class="card hidden">
+          <div class="panelHeader">
+            <h3>Từ vựng</h3>
+            <button class="btn" data-close="panelVocab">Đóng</button>
+          </div>
+
+          <div class="hint">IndexedDB giúp lưu rất nhiều vocab offline.</div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small">Chủ đề</div>
+              <select class="select" id="vocabTopic"></select>
+            </div>
+
+            <div>
+              <div class="small">JP (bắt buộc)</div>
+              <input class="input" id="vocabJp" placeholder="VD: ねこ" />
+            </div>
+          </div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small">Kana</div>
+              <input class="input" id="vocabKana" placeholder="VD: ねこ" />
+            </div>
+
+            <div>
+              <div class="small">Nghĩa (bắt buộc)</div>
+              <input
+                class="input"
+                id="vocabMeaning"
+                placeholder="VD: con mèo"
+              />
+            </div>
+          </div>
+
+          <div style="margin-top: 10px">
+            <div class="small">Ví dụ (ngữ pháp)</div>
+            <textarea
+              id="vocabExample"
+              placeholder="VD: ねこが好きです。"
+            ></textarea>
+          </div>
+
+          <div style="margin-top: 10px">
+            <div class="small">Hán việt / chữ Hán (nếu có)</div>
+            <input class="input" id="vocabHanviet" placeholder="VD: 猫: Miêu" />
+          </div>
+
+          <div class="twoCols" style="margin-top: 10px">
+            <div>
+              <div class="small">Icon (emoji) của từ</div>
+              <input class="input" id="vocabIcon" placeholder="VD: 🐱" />
+            </div>
+
+            <div>
+              <div class="small">Ảnh (đường dẫn local) của từ</div>
+              <input
+                class="input"
+                id="vocabImage"
+                placeholder="VD: images/animals/cat.png"
+              />
+            </div>
+          </div>
+
+          <div class="flex" style="margin-top: 10px">
+            <button class="btn primary" id="btnAddVocab">Thêm từ</button>
+            <button class="btn" id="btnClearVocabForm">Xóa form</button>
+          </div>
+
+          <hr />
+
+          <div class="twoCols">
+            <input
+              class="input"
+              id="vocabSearch"
+              placeholder="lọc theo jp/nghĩa/topic..."
+            />
+            <button class="btn" id="btnExportCsv">
+              Xuất CSV (phiếu vòng hiện tại)
+            </button>
+          </div>
+
+          <div id="vocabTable" style="margin-top: 10px"></div>
+        </div>
+
+        <!-- Import / Export -->
+        <div id="panelIO" class="card hidden">
+          <div class="panelHeader">
+            <h3>Import / Export</h3>
+            <button class="btn" data-close="panelIO">Đóng</button>
+          </div>
+
+          <div class="grid" style="margin-top: 10px">
+            <div class="twoCols">
+              <div>
+                <div class="small">
+                  Nhập JSON FULL (topics + vocab + state) — tùy chọn
+                </div>
+                <input
+                  class="input"
+                  type="file"
+                  id="jsonFile"
+                  accept="application/json"
+                />
+                <div class="hint">
+                  Chấp nhận:
+                  <span class="mono"
+                    >{"topics":[...],"vocab":[...],"state":{...}}</span
+                  >
+                  hoặc mảng vocab (legacy).
+                </div>
+              </div>
+
+              <div>
+                <div class="small">Xuất JSON hiện tại</div>
+                <button class="btn" id="btnExport">Tải JSON</button>
+                <div class="hint">
+                  Xuất topics + vocab + state + board tiles.
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="twoCols">
+              <div>
+                <div class="small">
+                  Nhập Topics riêng (chỉ đổi chủ đề, không đụng vocab)
+                </div>
+                <input
+                  class="input"
+                  type="file"
+                  id="topicsFile"
+                  accept="application/json"
+                />
+                <div class="hint">
+                  Format:
+                  <span class="mono"
+                    >{"topics":[{"id","name","icon?","image?","labels?"}...]}</span
+                  >
+                </div>
+              </div>
+
+              <div>
+                <div class="small">Nhập Vocab riêng</div>
+                <input
+                  class="input"
+                  type="file"
+                  id="vocabFile"
+                  accept="application/json"
+                />
+                <div class="hint">
+                  Format: <span class="mono">{"vocab":[...]}</span> hoặc legacy
+                  <span class="mono">[ ... ]</span>
+                </div>
+
+                <div style="margin-top: 8px">
+                  <div class="small">Chế độ nhập vocab</div>
+                  <select class="select" id="vocabImportMode">
+                    <option value="MERGE" selected>
+                      MERGE (thêm/ghi đè theo id) — KHÔNG xóa dữ liệu cũ
+                    </option>
+                    <option value="REPLACE">
+                      REPLACE (xóa hết vocab rồi nhập lại)
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="flex">
+              <button class="btn danger" id="btnClearVocabOnly">
+                Xóa toàn bộ vocab
+              </button>
+              <button class="btn danger" id="btnClearTopicsOnly">
+                Xóa toàn bộ topics (reset mặc định)
+              </button>
+            </div>
+
+            <div class="hint">Reset toàn bộ = nút Reset trên header.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div class="row">
+        <!-- Left -->
+        <div class="grid">
+          <!-- Play -->
+          <div class="card">
+            <h3>Chơi</h3>
+
+            <div class="flex">
+              <button class="btn primary" id="btnDeal">
+                Phát phiếu (vòng mới)
+              </button>
+              <button class="btn" id="btnNewBoard">Bảng mới</button>
+            </div>
+
+            <div class="card" style="border: 1px solid #eee; margin-top: 10px">
+              <div class="small" style="color: #777">
+                ĐANG ĐƯỢC GỌI (leader + một phần đầu để nhẹ máy)
+              </div>
+
+              <div id="currentCall" class="flex" style="margin-top: 6px"></div>
+
+              <div class="hint">
+                Phòng đông: dùng ô tìm số để gọi đúng người.
+              </div>
+            </div>
+          </div>
+
+          <!-- Players -->
+          <div class="card">
+            <h3>Người chơi</h3>
+
+            <div class="twoCols">
+              <div>
+                <div class="small">Tên người chơi (thêm giữa buổi được)</div>
+                <input
+                  class="input"
+                  id="playerName"
+                  placeholder="VD: Lan / Hương / ..."
+                />
+              </div>
+
+              <div style="align-self: end">
+                <button class="btn primary" id="btnAddPlayer">
+                  Thêm người chơi
+                </button>
+              </div>
+            </div>
+
+            <div class="twoCols" style="margin-top: 10px">
+              <div>
+                <div class="small">Tìm (tên / số bất kỳ / 3bich)</div>
+                <input
+                  class="input"
+                  id="playerSearch"
+                  placeholder="VD: 57 hoặc Lan hoặc 3bich..."
+                />
+                <div class="hint">
+                  Max số vòng hiện tại: <b id="maxNumberLabel">-</b>
+                </div>
+              </div>
+
+              <div style="align-self: end">
+                <button class="btn" id="btnClearSearch">Xóa lọc</button>
+              </div>
+            </div>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; margin-top: 10px"
+            >
+              <span class="badge" id="showingCount">0/0</span>
+              <button class="btn primary" id="btnToggleHistory">
+                Check phiếu
+              </button>
+            </div>
+
+            <div class="players" id="playersBox" style="margin-top: 10px"></div>
+
+            <div id="roundsWrap" class="hidden" style="margin-top: 10px">
+              <hr />
+
+              <div class="panelHeader">
+                <h3 style="margin: 0">Lịch sử phát phiếu</h3>
+                <button class="btn" id="btnHideHistoryInline">Ẩn phiếu</button>
+              </div>
+
+              <div class="hint">Hiển thị 30 vòng gần nhất.</div>
+              <div id="roundsBox" class="grid" style="margin-top: 10px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="grid">
+          <div class="card">
+            <h3>Bảng ô</h3>
+            <div class="small" style="margin-bottom: 10px">
+              Nhấn 1 lần: JP (+ timer). Nhấn 2 lần: nghĩa/đọc + phần bổ sung
+              (tùy độ khó).
+            </div>
+
+            <div class="tiles" id="tilesBox"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Script -->
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

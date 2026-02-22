@@ -1,0 +1,1996 @@
+{
+  "topics": [
+    {
+      "id": "t_family",
+      "name": "人と人の関係",
+      "icon": "👪",
+      "image": ""
+    }
+  ],
+  "vocab": [
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "身内",
+    "kana": "みうち",
+    "meaning": "bà con, người trong gia đình",
+    "example": "身内に医者がいると、何かと安心だ。",
+    "hanviet": "身内: Thân nội",
+    "icon": "👪",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "肉親",
+    "kana": "にくしん",
+    "meaning": "người thân ruột thịt",
+    "example": "父が他界し、肉親は兄だけになった。",
+    "hanviet": "肉親: Nhục thân",
+    "icon": "🧬",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "配偶者",
+    "kana": "はいぐうしゃ",
+    "meaning": "người phối ngẫu (vợ hoặc chồng)",
+    "example": "配偶者の有無をこちらに書いてください。",
+    "hanviet": "配偶者: Phối ngẫu giả",
+    "icon": "💍",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "家系",
+    "kana": "かけい",
+    "meaning": "gia phả, dòng họ",
+    "example": "自分のルーツを知るために、家系図を作ってみた。",
+    "hanviet": "家系: Gia hệ",
+    "icon": "🌳",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "おふくろ",
+    "kana": "おふくろ",
+    "meaning": "mẹ (cách nói thân mật)",
+    "example": "おふくろの味が懐かしい。",
+    "hanviet": "―",
+    "icon": "👩‍🦳",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "おやじ",
+    "kana": "おやじ",
+    "meaning": "cha, bố (cách nói thân mật)",
+    "example": "おやじ、まだ帰ってないの？",
+    "hanviet": "―",
+    "icon": "👨",
+    "image": ""
+  },
+  {
+    "id": "t_family",
+    "topicId": "t_family",
+    "jp": "よこす",
+    "kana": "よこす",
+    "meaning": "gửi tới, đưa cho",
+    "example": "週に一度は母親が電話をよこしてくる。",
+    "hanviet": "―",
+    "icon": "📞",
+    "image": ""
+  },
+  {
+    "id": "v_nyoubou",
+    "topicId": "t_family",
+    "jp": "女房",
+    "kana": "にょうぼう",
+    "meaning": "vợ (cách nói thân mật, đời thường)",
+    "example": "女房がうるさいから、帰るよ。",
+    "hanviet": "女房: Nữ phòng",
+    "icon": "👩‍❤️‍👨",
+    "image": ""
+  },
+  {
+    "id": "v_teishu",
+    "topicId": "t_family",
+    "jp": "亭主",
+    "kana": "ていしゅ",
+    "meaning": "chồng (cách nói thân mật)",
+    "example": "亭主は元気で留守がいいって言うじゃない。",
+    "hanviet": "亭主: Đình chủ",
+    "icon": "🧑‍💼",
+    "image": ""
+  },
+  {
+    "id": "v_nukumori",
+    "topicId": "t_family",
+    "jp": "温もり",
+    "kana": "ぬくもり",
+    "meaning": "hơi ấm, sự ấm áp",
+    "example": "温もりのある家庭を作りたい。",
+    "hanviet": "温もり: Ôn",
+    "icon": "🔥",
+    "image": ""
+  },
+  {
+    "id": "v_sazukaru",
+    "topicId": "t_family",
+    "jp": "授かる",
+    "kana": "さずかる",
+    "meaning": "được ban cho, được trời cho",
+    "example": "姉夫婦が女の子を授かった。",
+    "hanviet": "授かる: Thụ",
+    "icon": "👶",
+    "image": ""
+  },
+  {
+    "id": "v_nazukeru",
+    "topicId": "t_family",
+    "jp": "名付ける",
+    "kana": "なづける",
+    "meaning": "đặt tên",
+    "example": "日本では長男を太郎と名付けることが多かった。",
+    "hanviet": "名付ける: Danh",
+    "icon": "🏷️",
+    "image": ""
+  },
+  {
+    "id": "v_suyasuya",
+    "topicId": "t_family",
+    "jp": "すやすや",
+    "kana": "すやすや",
+    "meaning": "ngủ say sưa, ngủ ngon lành",
+    "example": "赤ちゃんがすやすやと眠っている。",
+    "hanviet": "―",
+    "icon": "😴",
+    "image": ""
+  },
+  {
+    "id": "v_shigusa",
+    "topicId": "t_family",
+    "jp": "しぐさ",
+    "kana": "しぐさ",
+    "meaning": "điệu bộ, cử chỉ",
+    "example": "娘のしぐさは、私にとくに似ているらしい。",
+    "hanviet": "仕草",
+    "icon": "🧍‍♀️",
+    "image": ""
+  },
+  {
+    "id": "v_itoshii",
+    "topicId": "t_family",
+    "jp": "愛しい",
+    "kana": "いとしい",
+    "meaning": "đáng yêu, yêu thương",
+    "example": "愛しくてたまらない。",
+    "hanviet": "愛: Ái",
+    "icon": "❤️",
+    "image": ""
+  },
+  {
+    "id": "v_natsuku",
+    "topicId": "t_family",
+    "jp": "懐く",
+    "kana": "なつく",
+    "meaning": "thân quen, quấn quýt",
+    "example": "実子でも、なかなかなつかない子もいる。",
+    "hanviet": "懐: Hoài",
+    "icon": "🤝",
+    "image": ""
+  },
+  {
+    "id": "v_nedaru",
+    "topicId": "t_family",
+    "jp": "ねだる",
+    "kana": "ねだる",
+    "meaning": "vòi vĩnh",
+    "example": "子供におもちゃをねだられて困った。",
+    "hanviet": "―",
+    "icon": "🧸",
+    "image": ""
+  },
+  {
+    "id": "v_suneru",
+    "topicId": "t_family",
+    "jp": "すねる",
+    "kana": "すねる",
+    "meaning": "hờn dỗi",
+    "example": "妹は思い通りにならないと、すぐすねる。",
+    "hanviet": "―",
+    "icon": "😤",
+    "image": ""
+  },
+  {
+    "id": "v_sashizu",
+    "topicId": "t_family",
+    "jp": "指図",
+    "kana": "さしず",
+    "meaning": "ra lệnh, chỉ thị",
+    "example": "あれこれ指図されるのは好きじゃない。",
+    "hanviet": "指図: Chỉ đồ",
+    "icon": "👉",
+    "image": ""
+  },
+  {
+    "id": "v_yokodori",
+    "topicId": "t_family",
+    "jp": "横取り",
+    "kana": "よこどり",
+    "meaning": "cướp tay trên, lấy ngang",
+    "example": "兄におもちゃを横取りされた。",
+    "hanviet": "横取: Hoành thủ",
+    "icon": "✋",
+    "image": ""
+  },
+  {
+    "id": "v_hanpatsu",
+    "topicId": "t_family",
+    "jp": "反発",
+    "kana": "はんぱつ",
+    "meaning": "phản kháng, phản bác",
+    "example": "兄に反発して、けんかになった。",
+    "hanviet": "反発: Phản phát",
+    "icon": "⚡",
+    "image": ""
+  },
+  {
+    "id": "v_gikushaku",
+    "topicId": "t_family",
+    "jp": "ぎくしゃく",
+    "kana": "ぎくしゃく",
+    "meaning": "gượng gạo, không suôn sẻ",
+    "example": "父との関係がぎくしゃくしている。",
+    "hanviet": "―",
+    "icon": "😬",
+    "image": ""
+  },
+  {
+    "id": "v_iikaesu",
+    "topicId": "t_family",
+    "jp": "言い返す",
+    "kana": "いいかえす",
+    "meaning": "cãi lại, đáp trả",
+    "example": "注意されると、すぐ言い返す娘に困る。",
+    "hanviet": "言返: Ngôn phản",
+    "icon": "🗣️",
+    "image": ""
+  },
+  {
+    "id": "v_iiharu",
+    "topicId": "t_family",
+    "jp": "言い張る",
+    "kana": "いいはる",
+    "meaning": "khăng khăng nói, cãi chày cãi cối",
+    "example": "姉は自分が正しいと言い張る。",
+    "hanviet": "言張: Ngôn trương",
+    "icon": "📢",
+    "image": ""
+  },
+  {
+    "id": "v_mongen",
+    "topicId": "t_family",
+    "jp": "門限",
+    "kana": "もんげん",
+    "meaning": "giờ giới nghiêm, giờ về nhà",
+    "example": "門限は10時だ。",
+    "hanviet": "門限: Môn hạn",
+    "icon": "⏰",
+    "image": ""
+  },
+  {
+    "id": "v_kaerimiru",
+    "topicId": "t_family",
+    "jp": "省みる",
+    "kana": "かえりみる",
+    "meaning": "nhìn lại, suy ngẫm",
+    "example": "過去を省みる。",
+    "hanviet": "省: Tỉnh",
+    "icon": "🪞",
+    "image": ""
+  },
+  {
+    "id": "v_samo",
+    "topicId": "t_family",
+    "jp": "さも",
+    "kana": "さも",
+    "meaning": "làm ra vẻ, tỏ ra",
+    "example": "さも知っているかのように話す。",
+    "hanviet": "―",
+    "icon": "🎭",
+    "image": ""
+  },
+  {
+    "id": "v_itawaru",
+    "topicId": "t_family",
+    "jp": "いたわる",
+    "kana": "いたわる",
+    "meaning": "quan tâm, chăm sóc",
+    "example": "祖父母をいたわる。",
+    "hanviet": "労: Lao",
+    "icon": "🤍",
+    "image": ""
+  },
+  {
+    "id": "v_takai",
+    "topicId": "t_family",
+    "jp": "他界する",
+    "kana": "たかいする",
+    "meaning": "qua đời",
+    "example": "祖父が他界した。",
+    "hanviet": "他界: Tha giới",
+    "icon": "🕊️",
+    "image": ""
+  },
+  {
+    "id": "v_yamayama",
+    "topicId": "t_family",
+    "jp": "やまやま",
+    "kana": "やまやま",
+    "meaning": "rất muốn, mãnh liệt",
+    "example": "続けたいのはやまやまだ。",
+    "hanviet": "―",
+    "icon": "🔥",
+    "image": ""
+  },
+  {
+    "id": "v_saikon",
+    "topicId": "t_family",
+    "jp": "再婚",
+    "kana": "さいこん",
+    "meaning": "tái hôn",
+    "example": "再婚も考えている。",
+    "hanviet": "再婚: Tái hôn",
+    "icon": "💒",
+    "image": ""
+  },
+  {
+    "id": "v_kenzai",
+    "topicId": "t_family",
+    "jp": "健在",
+    "kana": "けんざい",
+    "meaning": "còn sống, khoẻ mạnh",
+    "example": "両親は健在です。",
+    "hanviet": "健在: Kiện tại",
+    "icon": "💪",
+    "image": ""
+  },
+  {
+    "id": "v_kinikakeru",
+    "topicId": "t_family",
+    "jp": "気に掛ける",
+    "kana": "きにかける",
+    "meaning": "quan tâm, để ý",
+    "example": "今も親を気に掛けている。",
+    "hanviet": "気: Khí",
+    "icon": "💭",
+    "image": ""
+  },
+  {
+    "id": "v_kakegae",
+    "topicId": "t_family",
+    "jp": "かけがえのない",
+    "kana": "かけがえのない",
+    "meaning": "duy nhất, không thể thay thế",
+    "example": "かけがえのない人だ。",
+    "hanviet": "―",
+    "icon": "💎",
+    "image": ""
+  },
+  {
+    "id": "v_uketsugu",
+    "topicId": "t_family",
+    "jp": "受け継ぐ",
+    "kana": "うけつぐ",
+    "meaning": "kế thừa, tiếp nối",
+    "example": "父の事業を受け継ぐ。",
+    "hanviet": "受継: Thụ kế",
+    "icon": "🔗",
+    "image": ""
+  },
+  {
+    "id": "v_isan",
+    "topicId": "t_family",
+    "jp": "遺産",
+    "kana": "いさん",
+    "meaning": "di sản, gia tài",
+    "example": "父の遺産について話し合った。",
+    "hanviet": "遺産: Di sản",
+    "icon": "📜",
+    "image": ""
+  },
+   {
+    "id": "v_kakegaenonai",
+    "topicId": "t_family",
+    "jp": "かけがえのない",
+    "kana": "かけがえのない",
+    "meaning": "không thể thay thế, vô giá",
+    "example": "彼は私にとってかけがえのない親友だ。",
+    "hanviet": "―",
+    "icon": "💎",
+    "image": ""
+  },
+  {
+    "id": "v_kigaokenai",
+    "topicId": "t_family",
+    "jp": "気が置けない",
+    "kana": "きがおけない",
+    "meaning": "không phải giữ ý, không khách sáo",
+    "example": "気が置けない仲間と過ごす時間が一番だ。",
+    "hanviet": "気: Khí",
+    "icon": "🤝",
+    "image": ""
+  },
+  {
+    "id": "v_kigokoro",
+    "topicId": "t_family",
+    "jp": "気心",
+    "kana": "きごころ",
+    "meaning": "tâm ý, sự thấu hiểu",
+    "example": "彼とは気心が知れた仲だ。",
+    "hanviet": "気心: Khí tâm",
+    "icon": "🫶",
+    "image": ""
+  },
+  {
+    "id": "v_uchiakeru",
+    "topicId": "t_family",
+    "jp": "打ち明ける",
+    "kana": "うちあける",
+    "meaning": "bộc bạch, thổ lộ",
+    "example": "親友だけに秘密を打ち明けた。",
+    "hanviet": "打明: Đả minh",
+    "icon": "🗝️",
+    "image": ""
+  },
+  {
+    "id": "v_sassuru",
+    "topicId": "t_family",
+    "jp": "察する",
+    "kana": "さっする",
+    "meaning": "nhận ra, cảm nhận",
+    "example": "友人は私の気持ちを察して、何も聞かなかった。",
+    "hanviet": "察: Sát",
+    "icon": "👀",
+    "image": ""
+  },
+  {
+    "id": "v_onaidoshi",
+    "topicId": "t_family",
+    "jp": "同い年",
+    "kana": "おないどし",
+    "meaning": "bằng tuổi, cùng tuổi",
+    "example": "彼は私と同い年とは思えないほど若く見える。",
+    "hanviet": "同年: Đồng niên",
+    "icon": "🎂",
+    "image": ""
+  },
+  {
+    "id": "v_renchuu",
+    "topicId": "t_family",
+    "jp": "連中",
+    "kana": "れんちゅう",
+    "meaning": "bọn, đám (sắc thái coi thường)",
+    "example": "もうあんな連中と付き合うのはやめよう。",
+    "hanviet": "連中: Liên trung",
+    "icon": "👥",
+    "image": ""
+  },
+  {
+    "id": "v_yobisute",
+    "topicId": "t_family",
+    "jp": "呼び捨て",
+    "kana": "よびすて",
+    "meaning": "gọi trống không (không kính ngữ)",
+    "example": "呼び捨てにされるのは嫌だ。",
+    "hanviet": "呼捨: Hô xả",
+    "icon": "📛",
+    "image": ""
+  },
+  {
+    "id": "v_minoue",
+    "topicId": "t_family",
+    "jp": "身の上",
+    "kana": "みのうえ",
+    "meaning": "thân thế, hoàn cảnh cá nhân",
+    "example": "お互いの身の上を話した。",
+    "hanviet": "身上: Thân thượng",
+    "icon": "📖",
+    "image": ""
+  },
+  {
+    "id": "v_tessuru",
+    "topicId": "t_family",
+    "jp": "徹する",
+    "kana": "てっする",
+    "meaning": "chuyên tâm, triệt để theo một vai trò",
+    "example": "友人は聞き役に徹してくれた。",
+    "hanviet": "徹: Triệt",
+    "icon": "🎧",
+    "image": ""
+  },
+  {
+    "id": "v_fuminijiru",
+    "topicId": "t_family",
+    "jp": "踏みにじる",
+    "kana": "ふみにじる",
+    "meaning": "chà đạp, xúc phạm",
+    "example": "友人の思いを踏みにじってしまった。",
+    "hanviet": "踏: Đạp",
+    "icon": "👞",
+    "image": ""
+  },
+  {
+    "id": "v_kinisawaru",
+    "topicId": "t_family",
+    "jp": "気に障る",
+    "kana": "きにさわる",
+    "meaning": "gây khó chịu, chướng tai",
+    "example": "人の気に障ることを言う。",
+    "hanviet": "障: Chướng",
+    "icon": "😖",
+    "image": ""
+  },
+  {
+    "id": "v_kimarigawarui",
+    "topicId": "t_family",
+    "jp": "きまりが悪い",
+    "kana": "きまりがわるい",
+    "meaning": "ngượng ngùng, xấu hổ",
+    "example": "きまりが悪くて何も言えなかった。",
+    "hanviet": "―",
+    "icon": "😳",
+    "image": ""
+  },
+  {
+    "id": "v_tagaga",
+    "topicId": "t_family",
+    "jp": "たかが",
+    "kana": "たかが",
+    "meaning": "chỉ là, có bao nhiêu đâu",
+    "example": "たかが100円でも返すべきだ。",
+    "hanviet": "―",
+    "icon": "💰",
+    "image": ""
+  },
+  {
+    "id": "v_kabau",
+    "topicId": "t_family",
+    "jp": "かばう",
+    "kana": "かばう",
+    "meaning": "che chở, bảo vệ",
+    "example": "彼はいつも私をかばってくれる。",
+    "hanviet": "庇: Tí",
+    "icon": "🛡️",
+    "image": ""
+  },
+  {
+    "id": "v_aete",
+    "topicId": "t_family",
+    "jp": "あえて",
+    "kana": "あえて",
+    "meaning": "cố tình, dám làm",
+    "example": "友達だからこそ、あえて忠告する。",
+    "hanviet": "―",
+    "icon": "⚔️",
+    "image": ""
+  },
+  {
+    "id": "v_hinpan",
+    "topicId": "t_family",
+    "jp": "頻繁な",
+    "kana": "ひんぱん",
+    "meaning": "thường xuyên",
+    "example": "友人と頻繁に会っている。",
+    "hanviet": "頻繁: Tần phồn",
+    "icon": "🔁",
+    "image": ""
+  },
+  {
+    "id": "v_timing",
+    "topicId": "t_family",
+    "jp": "タイミング",
+    "kana": "タイミング",
+    "meaning": "thời điểm",
+    "example": "タイミングが悪く断られた。",
+    "hanviet": "―",
+    "icon": "⏱️",
+    "image": ""
+  },
+   {
+    "id": "v_janken",
+    "topicId": "t_family",
+    "jp": "じゃんけん（する）",
+    "kana": "じゃんけん（する）",
+    "meaning": "oẳn tù tì",
+    "example": "今度の飲み会の幹事を決めるため、じゃんけんで決めよう。",
+    "hanviet": "―",
+    "icon": "✊✌️✋",
+    "image": ""
+  },
+  {
+    "id": "v_aiko",
+    "topicId": "t_family",
+    "jp": "あいこ",
+    "kana": "あいこ",
+    "meaning": "hòa (trong oẳn tù tì)",
+    "example": "何回じゃんけんしてもあいこで、勝敗が決まらない。",
+    "hanviet": "相子",
+    "icon": "🤝",
+    "image": ""
+  },
+  {
+    "id": "v_tsunagaru",
+    "topicId": "t_family",
+    "jp": "つながる",
+    "kana": "つながる",
+    "meaning": "kết nối, liên lạc được",
+    "example": "SNSで音信不通だった友人とつながるようになった。",
+    "hanviet": "繋: Kết",
+    "icon": "🔗",
+    "image": ""
+  },
+  {
+    "id": "v_yatara",
+    "topicId": "t_family",
+    "jp": "やたら（に／と）",
+    "kana": "やたら（に／と）",
+    "meaning": "quá mức, rất chi là (sắc thái tiêu cực)",
+    "example": "彼はお酒を飲むと、やたらとうるさい。",
+    "hanviet": "―",
+    "icon": "📢",
+    "image": ""
+  },
+  {
+    "id": "v_sazo",
+    "topicId": "t_family",
+    "jp": "さぞ",
+    "kana": "さぞ",
+    "meaning": "ắt hẳn là, chắc là (suy đoán mạnh)",
+    "example": "ブランドばかり着ている。さぞ金持ちだろう。",
+    "hanviet": "―",
+    "icon": "💭",
+    "image": ""
+  },
+  {
+    "id": "v_somosomo",
+    "topicId": "t_family",
+    "jp": "そもそも",
+    "kana": "そもそも",
+    "meaning": "vốn dĩ, ngay từ đầu",
+    "example": "そもそも性格が合わない。",
+    "hanviet": "―",
+    "icon": "🧩",
+    "image": ""
+  },
+  {
+    "id": "v_yomoya",
+    "topicId": "t_family",
+    "jp": "よもや（～ない）",
+    "kana": "よもや（～ない）",
+    "meaning": "không thể nào ngờ (dùng với phủ định)",
+    "example": "彼が恋人になるとは、よもや思わなかった。",
+    "hanviet": "―",
+    "icon": "😲",
+    "image": ""
+  },
+  {
+    "id": "v_en",
+    "topicId": "t_family",
+    "jp": "縁",
+    "kana": "えん",
+    "meaning": "mối duyên, mối quan hệ",
+    "example": "いろいろな縁を大切にしたい。",
+    "hanviet": "縁: Duyên",
+    "icon": "🧵",
+    "image": ""
+  },
+  {
+    "id": "v_ikken",
+    "topicId": "t_family",
+    "jp": "一見",
+    "kana": "いっけん",
+    "meaning": "thoạt nhìn",
+    "example": "あの人は一見怖そうだが、面白い人だ。",
+    "hanviet": "一見: Nhất kiến",
+    "icon": "👀",
+    "image": ""
+  },
+  {
+    "id": "v_kikubari",
+    "topicId": "t_family",
+    "jp": "気配り",
+    "kana": "きくばり",
+    "meaning": "sự để ý, quan tâm tinh tế",
+    "example": "気配りをありがとう。",
+    "hanviet": "気配: Khí phối",
+    "icon": "🎁",
+    "image": ""
+  },
+  {
+    "id": "v_iwaba",
+    "topicId": "t_family",
+    "jp": "いわば",
+    "kana": "いわば",
+    "meaning": "có thể nói là, nói cách khác",
+    "example": "いわば母親代わりの存在だ。",
+    "hanviet": "―",
+    "icon": "🔎",
+    "image": ""
+  },
+  {
+    "id": "v_uchitokeru",
+    "topicId": "t_family",
+    "jp": "打ち解ける",
+    "kana": "うちとける",
+    "meaning": "cởi mở, trở nên thân thiết",
+    "example": "すぐに打ち解けることができた。",
+    "hanviet": "打解: Đả giải",
+    "icon": "😊",
+    "image": ""
+  },
+  {
+    "id": "v_koui",
+    "topicId": "t_family",
+    "jp": "好意",
+    "kana": "こうい",
+    "meaning": "thiện cảm, mến mộ",
+    "example": "好意を持ってくれてありがとう。",
+    "hanviet": "好意: Hảo ý",
+    "icon": "💗",
+    "image": ""
+  },
+  {
+    "id": "v_iroke",
+    "topicId": "t_family",
+    "jp": "色気",
+    "kana": "いろけ",
+    "meaning": "vẻ gợi cảm, sức hấp dẫn",
+    "example": "あの人は色気がある。",
+    "hanviet": "色気: Sắc khí",
+    "icon": "✨",
+    "image": ""
+  },
+  {
+    "id": "v_mie",
+    "topicId": "t_family",
+    "jp": "見栄",
+    "kana": "みえ",
+    "meaning": "sĩ diện, vẻ bề ngoài",
+    "example": "見栄を張って高級店に行った。",
+    "hanviet": "見栄: Kiến vinh",
+    "icon": "🎭",
+    "image": ""
+  },
+  {
+    "id": "v_mieppari",
+    "topicId": "t_family",
+    "jp": "見栄っ張り",
+    "kana": "みえっぱり",
+    "meaning": "hay sĩ diện",
+    "example": "姉は見栄っ張りだ。",
+    "hanviet": "―",
+    "icon": "🛍️",
+    "image": ""
+  },
+  {
+    "id": "v_hitochigai",
+    "topicId": "t_family",
+    "jp": "人違い",
+    "kana": "ひとちがい",
+    "meaning": "nhầm người",
+    "example": "声をかけたら人違いだった。",
+    "hanviet": "人違: Nhân sai",
+    "icon": "❓",
+    "image": ""
+  },
+  {
+    "id": "v_tekkiri",
+    "topicId": "t_family",
+    "jp": "てっきり",
+    "kana": "てっきり",
+    "meaning": "cứ ngỡ là, cứ tưởng là",
+    "example": "てっきり兄弟だと思っていた。",
+    "hanviet": "―",
+    "icon": "💡",
+    "image": ""
+  },
+  {
+    "id": "v_omowaseburi",
+    "topicId": "t_family",
+    "jp": "思わせぶり",
+    "kana": "おもわせぶり",
+    "meaning": "mập mờ, dễ gây hiểu lầm",
+    "example": "思わせぶりな態度を取る。",
+    "hanviet": "思振: Tư chấn",
+    "icon": "😶‍🌫️",
+    "image": ""
+  },
+  {
+    "id": "v_sonnatsumoriwanai",
+    "topicId": "t_family",
+    "jp": "そんなつもりはない",
+    "kana": "そんなつもりはない",
+    "meaning": "không có ý đó",
+    "example": "傷つけるつもりはなかった。",
+    "hanviet": "―",
+    "icon": "🙅‍♂️",
+    "image": ""
+  },
+  {
+    "id": "v_oikomu",
+    "topicId": "t_family",
+    "jp": "追い込む",
+    "kana": "おいこむ",
+    "meaning": "dồn ép, đẩy vào đường cùng",
+    "example": "周囲の言葉が彼を追い込んだ。",
+    "hanviet": "追込: Truy bức",
+    "icon": "⚠️",
+    "image": ""
+  },
+  {
+    "id": "v_monozuki",
+    "topicId": "t_family",
+    "jp": "もの好き",
+    "kana": "ものずき",
+    "meaning": "người có sở thích kỳ lạ",
+    "example": "変わった物を集める、もの好きだ。",
+    "hanviet": "物好: Vật hiếu",
+    "icon": "🌀",
+    "image": ""
+  },
+  {
+    "id": "v_hayakuchi",
+    "topicId": "t_family",
+    "jp": "早口",
+    "kana": "はやくち",
+    "meaning": "nói nhanh",
+    "example": "彼女は早口で聞き取りにくい。",
+    "hanviet": "早口: Tảo khẩu",
+    "icon": "💬",
+    "image": ""
+  },
+  {
+    "id": "v_hayasu",
+    "topicId": "t_family",
+    "jp": "生やす",
+    "kana": "はやす",
+    "meaning": "để mọc (râu, tóc)",
+    "example": "ひげを生やす。",
+    "hanviet": "生: Sinh",
+    "icon": "🧔",
+    "image": ""
+  },
+  {
+    "id": "v_ijiru",
+    "topicId": "t_family",
+    "jp": "いじる",
+    "kana": "いじる",
+    "meaning": "vọc, nghịch, đụng chạm",
+    "example": "髪の毛をいじっている。",
+    "hanviet": "―",
+    "icon": "✋",
+    "image": ""
+  },
+  {
+    "id": "v_yusuru",
+    "topicId": "t_family",
+    "jp": "揺する",
+    "kana": "ゆする",
+    "meaning": "lắc, rung",
+    "example": "体を揺する癖がある。",
+    "hanviet": "揺: Dao",
+    "icon": "↔️",
+    "image": ""
+  },
+  {
+    "id": "v_kokoroeru",
+    "topicId": "t_family",
+    "jp": "心得る",
+    "kana": "こころえる",
+    "meaning": "hiểu rõ, nắm vững",
+    "example": "マナーを心得ている。",
+    "hanviet": "心得: Tâm đắc",
+    "icon": "📘",
+    "image": ""
+  },
+  {
+    "id": "v_kaku",
+    "topicId": "t_family",
+    "jp": "欠く",
+    "kana": "かく",
+    "meaning": "thiếu",
+    "example": "礼儀を欠く。",
+    "hanviet": "欠: Khuyết",
+    "icon": "➖",
+    "image": ""
+  },
+  {
+    "id": "v_omomuroni",
+    "topicId": "t_family",
+    "jp": "おもむろに",
+    "kana": "おもむろに",
+    "meaning": "từ tốn, chậm rãi",
+    "example": "おもむろに立ち上がった。",
+    "hanviet": "―",
+    "icon": "🐢",
+    "image": ""
+  },
+   {
+    "id": "v_isei",
+    "topicId": "t_family",
+    "jp": "異性",
+    "kana": "いせい",
+    "meaning": "khác giới",
+    "example": "彼女は異性にも同性にも好かれるタイプだ。",
+    "hanviet": "異性: Dị tính",
+    "icon": "🚻",
+    "image": ""
+  },
+  {
+    "id": "v_koisuru",
+    "topicId": "t_family",
+    "jp": "恋する",
+    "kana": "こいする",
+    "meaning": "yêu, rung động",
+    "example": "中学生の妹は恋に恋しているようだ。",
+    "hanviet": "恋: Luyến",
+    "icon": "💓",
+    "image": ""
+  },
+  {
+    "id": "v_hitomebore",
+    "topicId": "t_family",
+    "jp": "一目ぼれ（する）",
+    "kana": "ひとめぼれ（する）",
+    "meaning": "yêu từ cái nhìn đầu tiên",
+    "example": "弟は電車で会った人に一目ぼれした。",
+    "hanviet": "一目惚: Nhất mục si",
+    "icon": "⚡❤️",
+    "image": ""
+  },
+  {
+    "id": "v_kataomoi",
+    "topicId": "t_family",
+    "jp": "片思い",
+    "kana": "かたおもい",
+    "meaning": "yêu đơn phương",
+    "example": "片思いのままではつらい。",
+    "hanviet": "片思: Phiến tư",
+    "icon": "💔",
+    "image": ""
+  },
+  {
+    "id": "v_hisoka",
+    "topicId": "t_family",
+    "jp": "密か（な）",
+    "kana": "ひそか（な）",
+    "meaning": "thầm lặng, âm thầm",
+    "example": "彼女を密かに思い続けている。",
+    "hanviet": "密: Mật",
+    "icon": "🤫",
+    "image": ""
+  },
+  {
+    "id": "v_hikareru",
+    "topicId": "t_family",
+    "jp": "引かれる",
+    "kana": "ひかれる",
+    "meaning": "bị cuốn hút",
+    "example": "彼女の優しさに引かれた。",
+    "hanviet": "引: Dẫn",
+    "icon": "🧲",
+    "image": ""
+  },
+  {
+    "id": "v_kigaaru",
+    "topicId": "t_family",
+    "jp": "気がある",
+    "kana": "きがある",
+    "meaning": "có ý, có tình cảm",
+    "example": "彼女は僕に気があるようだ。",
+    "hanviet": "気: Khí",
+    "icon": "👀❤️",
+    "image": ""
+  },
+  {
+    "id": "v_manzara",
+    "topicId": "t_family",
+    "jp": "まんざら（～ない）",
+    "kana": "まんざら（～ない）",
+    "meaning": "không hẳn là (phủ định nhẹ)",
+    "example": "彼女は彼をまんざら嫌いでもない。",
+    "hanviet": "―",
+    "icon": "🤔",
+    "image": ""
+  },
+  {
+    "id": "v_akarameru",
+    "topicId": "t_family",
+    "jp": "赤らめる",
+    "kana": "あからめる",
+    "meaning": "ửng đỏ",
+    "example": "頬を赤らめて微笑んだ。",
+    "hanviet": "赤: Xích",
+    "icon": "😊🌸",
+    "image": ""
+  },
+  {
+    "id": "v_manazashi",
+    "topicId": "t_family",
+    "jp": "まなざし",
+    "kana": "まなざし",
+    "meaning": "ánh mắt",
+    "example": "彼の熱いまなざしを感じた。",
+    "hanviet": "眼差: Nhãn sai",
+    "icon": "👁️✨",
+    "image": ""
+  },
+  {
+    "id": "v_chokkan",
+    "topicId": "t_family",
+    "jp": "直感（する）",
+    "kana": "ちょっかん（する）",
+    "meaning": "trực giác",
+    "example": "初対面で結婚すると思った。",
+    "hanviet": "直感: Trực cảm",
+    "icon": "⚡🧠",
+    "image": ""
+  },
+  {
+    "id": "v_kokuhaku",
+    "topicId": "t_family",
+    "jp": "告白（する）",
+    "kana": "こくはく（する）",
+    "meaning": "thổ lộ, tỏ tình",
+    "example": "気持ちを彼に告白できない。",
+    "hanviet": "告白: Cáo bạch",
+    "icon": "💌",
+    "image": ""
+  },
+  {
+    "id": "v_uketomeru",
+    "topicId": "t_family",
+    "jp": "受け止める",
+    "kana": "うけとめる",
+    "meaning": "đón nhận, chấp nhận",
+    "example": "彼女は告白を受け止めてくれた。",
+    "hanviet": "受止: Thụ chỉ",
+    "icon": "🤲",
+    "image": ""
+  },
+  {
+    "id": "v_unmei",
+    "topicId": "t_family",
+    "jp": "運命",
+    "kana": "うんめい",
+    "meaning": "vận mệnh",
+    "example": "出会いに運命を感じた。",
+    "hanviet": "運命: Vận mệnh",
+    "icon": "🧭",
+    "image": ""
+  },
+  {
+    "id": "v_hitosuji",
+    "topicId": "t_family",
+    "jp": "一筋",
+    "kana": "ひとすじ",
+    "meaning": "một lòng một dạ",
+    "example": "彼女一筋だ。",
+    "hanviet": "一筋: Nhất tuyến",
+    "icon": "🧡",
+    "image": ""
+  },
+  {
+    "id": "v_hagukumu",
+    "topicId": "t_family",
+    "jp": "育む",
+    "kana": "はぐくむ",
+    "meaning": "nuôi dưỡng",
+    "example": "二人は愛を育んでいる。",
+    "hanviet": "育: Dục",
+    "icon": "🌱❤️",
+    "image": ""
+  },
+  {
+    "id": "v_norokeru",
+    "topicId": "t_family",
+    "jp": "のろける",
+    "kana": "のろける",
+    "meaning": "khoe tình cảm, ca tụng người yêu",
+    "example": "恋人の話をのろける。",
+    "hanviet": "―",
+    "icon": "😆💕",
+    "image": ""
+  },
+  {
+    "id": "v_katatoki",
+    "topicId": "t_family",
+    "jp": "片時",
+    "kana": "かたとき",
+    "meaning": "giây lát, chốc lát",
+    "example": "片時も忘れられない。",
+    "hanviet": "片時: Phiến thì",
+    "icon": "⏳",
+    "image": ""
+  },
+   {
+    "id": "v_suminio kenai",
+    "topicId": "t_family",
+    "jp": "隅に置けない",
+    "kana": "すみにおけない",
+    "meaning": "không thể xem thường, không hề tầm thường",
+    "example": "恋愛に関しては、弟は隅に置けないタイプだ。",
+    "hanviet": "―",
+    "icon": "⭐",
+    "image": ""
+  },
+  {
+    "id": "v_hariau",
+    "topicId": "t_family",
+    "jp": "張り合う",
+    "kana": "はりあう",
+    "meaning": "ganh đua, tranh giành",
+    "example": "弟を巡って、三人の女子が張り合っている。",
+    "hanviet": "張合: Trương hợp",
+    "icon": "⚔️",
+    "image": ""
+  },
+  {
+    "id": "v_uchouten",
+    "topicId": "t_family",
+    "jp": "有頂天（な）",
+    "kana": "うちょうてん（な）",
+    "meaning": "ngây ngất, sung sướng tột độ",
+    "example": "彼女ができて、有頂天になっている。",
+    "hanviet": "有頂天: Hữu đỉnh thiên",
+    "icon": "🎈",
+    "image": ""
+  },
+  {
+    "id": "v_osoroi",
+    "topicId": "t_family",
+    "jp": "お揃い",
+    "kana": "おそろい",
+    "meaning": "đồ cặp, đồng bộ",
+    "example": "二人でお揃いのリングを買った。",
+    "hanviet": "揃: Tề",
+    "icon": "💍",
+    "image": ""
+  },
+  {
+    "id": "v_monozuki2",
+    "topicId": "t_family",
+    "jp": "もの好き",
+    "kana": "ものずき",
+    "meaning": "gu lạ, sở thích kỳ lạ",
+    "example": "もの好きと言われても、彼が好きだ。",
+    "hanviet": "物好: Vật hiếu",
+    "icon": "🌀",
+    "image": ""
+  },
+  {
+    "id": "v_soppomuku",
+    "topicId": "t_family",
+    "jp": "そっぽを向く",
+    "kana": "そっぽをむく",
+    "meaning": "ngoảnh mặt đi, làm ngơ",
+    "example": "彼女は怒って、そっぽを向いた。",
+    "hanviet": "―",
+    "icon": "🙄",
+    "image": ""
+  },
+  {
+    "id": "v_sokubaku",
+    "topicId": "t_family",
+    "jp": "束縛（する）",
+    "kana": "そくばく（する）",
+    "meaning": "trói buộc, kiểm soát",
+    "example": "束縛されたくない。",
+    "hanviet": "束縛: Thúc phược",
+    "icon": "⛓️",
+    "image": ""
+  },
+  {
+    "id": "v_shitto",
+    "topicId": "t_family",
+    "jp": "嫉妬（する）",
+    "kana": "しっと（する）",
+    "meaning": "ghen tuông",
+    "example": "彼は少しのことで嫉妬する。",
+    "hanviet": "嫉妬: Tật đố",
+    "icon": "💚",
+    "image": ""
+  },
+  {
+    "id": "v_uwaki",
+    "topicId": "t_family",
+    "jp": "浮気（する）",
+    "kana": "うわき（する）",
+    "meaning": "ngoại tình, lăng nhăng",
+    "example": "浮気は許さない。",
+    "hanviet": "浮気: Phù khí",
+    "icon": "🚫❤️",
+    "image": ""
+  },
+  {
+    "id": "v_hakkaku",
+    "topicId": "t_family",
+    "jp": "発覚（する）",
+    "kana": "はっかく（する）",
+    "meaning": "bị phát giác, bị bại lộ",
+    "example": "浮気が発覚した。",
+    "hanviet": "発覚: Phát giác",
+    "icon": "🔎",
+    "image": ""
+  },
+  {
+    "id": "v_benkai",
+    "topicId": "t_family",
+    "jp": "弁解（する）",
+    "kana": "べんかい（する）",
+    "meaning": "biện minh, bao biện",
+    "example": "どんな弁解も聞かない。",
+    "hanviet": "弁解: Biện giải",
+    "icon": "🗣️",
+    "image": ""
+  },
+  {
+    "id": "v_miren",
+    "topicId": "t_family",
+    "jp": "未練",
+    "kana": "みれん",
+    "meaning": "vương vấn, lưu luyến",
+    "example": "彼に未練はない。",
+    "hanviet": "未練: Vị luyến",
+    "icon": "🕯️",
+    "image": ""
+  },
+  {
+    "id": "v_pokkari",
+    "topicId": "t_family",
+    "jp": "ぽっかり（と）",
+    "kana": "ぽっかり（と）",
+    "meaning": "trống rỗng, trống hoác",
+    "example": "心にぽっかり穴が空いた。",
+    "hanviet": "―",
+    "icon": "🕳️",
+    "image": ""
+  },
+  {
+    "id": "v_zentei",
+    "topicId": "t_family",
+    "jp": "前提",
+    "kana": "ぜんてい",
+    "meaning": "tiền đề, mặc định",
+    "example": "結婚を前提に付き合っている。",
+    "hanviet": "前提: Tiền đề",
+    "icon": "📌",
+    "image": ""
+  },
+  {
+    "id": "v_seii",
+    "topicId": "t_family",
+    "jp": "誠意",
+    "kana": "せいい",
+    "meaning": "thành ý, chân thành",
+    "example": "誠意を示してくれた。",
+    "hanviet": "誠意: Thành ý",
+    "icon": "🤍",
+    "image": ""
+  },
+  {
+    "id": "v_naresome",
+    "topicId": "t_family",
+    "jp": "なれそめ",
+    "kana": "なれそめ",
+    "meaning": "cơ duyên gặp gỡ ban đầu",
+    "example": "二人のなれそめを聞いた。",
+    "hanviet": "―",
+    "icon": "🌸",
+    "image": ""
+  },
+  {
+    "id": "v_endan",
+    "topicId": "t_family",
+    "jp": "縁談",
+    "kana": "えんだん",
+    "meaning": "chuyện mai mối, chuyện cưới hỏi",
+    "example": "いい縁談が来た。",
+    "hanviet": "縁談: Duyên đàm",
+    "icon": "📜",
+    "image": ""
+  },
+  {
+    "id": "v_goalin",
+    "topicId": "t_family",
+    "jp": "ゴールイン（する）",
+    "kana": "ゴールイン（する）",
+    "meaning": "đi đến hôn nhân",
+    "example": "二人はゴールインした。",
+    "hanviet": "―",
+    "icon": "🏁💍",
+    "image": ""
+  },
+  {
+    "id": "v_hidori",
+    "topicId": "t_family",
+    "jp": "日取り",
+    "kana": "ひどり",
+    "meaning": "chọn ngày, ấn định ngày",
+    "example": "結婚式の日取りを大安の日に決めた。",
+    "hanviet": "日取: Nhật thủ",
+    "icon": "📅",
+    "image": ""
+  },
+  {
+    "id": "v_hirou",
+    "topicId": "t_family",
+    "jp": "披露（する）",
+    "kana": "ひろう（する）",
+    "meaning": "ra mắt, công bố",
+    "example": "花嫁姿を披露するのが待ち遠しい。",
+    "hanviet": "披露: Phi lộ",
+    "icon": "🎤",
+    "image": ""
+  },
+  {
+    "id": "v_ogosokana",
+    "topicId": "t_family",
+    "jp": "厳かな",
+    "kana": "おごそかな",
+    "meaning": "trang nghiêm",
+    "example": "厳かな雰囲気の中で式が行われた。",
+    "hanviet": "厳: Nghiêm",
+    "icon": "🕊️",
+    "image": ""
+  },
+  {
+    "id": "v_ichidou",
+    "topicId": "t_family",
+    "jp": "一同",
+    "kana": "いちどう",
+    "meaning": "toàn thể mọi người",
+    "example": "社員一同、心よりお祝い申し上げます。",
+    "hanviet": "一同: Nhất đồng",
+    "icon": "👥",
+    "image": ""
+  },
+  {
+    "id": "v_urumu",
+    "topicId": "t_family",
+    "jp": "潤む",
+    "kana": "うるむ",
+    "meaning": "ngấn nước, rưng rưng",
+    "example": "姉の目がうるんでいた。",
+    "hanviet": "潤: Nhuận",
+    "icon": "🥹",
+    "image": ""
+  },
+  {
+    "id": "v_yorisou",
+    "topicId": "t_family",
+    "jp": "寄り添う",
+    "kana": "よりそう",
+    "meaning": "gắn bó, kề bên",
+    "example": "二人で寄り添って生きていきたい。",
+    "hanviet": "寄添: Ký thiêm",
+    "icon": "🤍",
+    "image": ""
+  },
+  {
+    "id": "v_taijinkankei",
+    "topicId": "t_family",
+    "jp": "対人関係",
+    "kana": "たいじんかんけい",
+    "meaning": "mối quan hệ con người, đối nhân xử thế",
+    "example": "社会に出ると、対人関係で苦労することが多い。",
+    "hanviet": "対人関係: Đối nhân quan hệ",
+    "icon": "🤝",
+    "image": ""
+  },
+  {
+    "id": "v_giri",
+    "topicId": "t_family",
+    "jp": "義理",
+    "kana": "ぎり",
+    "meaning": "nghĩa tình, nghĩa vụ xã hội",
+    "example": "付き合いでは義理を大切にしなければならない。",
+    "hanviet": "義理: Nghĩa lý",
+    "icon": "🎗️",
+    "image": ""
+  },
+  {
+    "id": "v_enman",
+    "topicId": "t_family",
+    "jp": "円満な",
+    "kana": "えんまんな",
+    "meaning": "êm đẹp, thuận hòa",
+    "example": "円満な人間関係に欠かせないのは思いやりだ。",
+    "hanviet": "円満: Viên mãn",
+    "icon": "⭕",
+    "image": ""
+  },
+  {
+    "id": "v_fumikomu",
+    "topicId": "t_family",
+    "jp": "踏み込む",
+    "kana": "ふみこむ",
+    "meaning": "can thiệp sâu, xâm nhập",
+    "example": "人の生活に踏み込みすぎないようにする。",
+    "hanviet": "踏込: Đạp nhập",
+    "icon": "👞",
+    "image": ""
+  },
+  {
+    "id": "v_iyagarase",
+    "topicId": "t_family",
+    "jp": "嫌がらせ（する）",
+    "kana": "いやがらせ（する）",
+    "meaning": "quấy rối, gây khó chịu",
+    "example": "隣人に嫌がらせをされて困っている。",
+    "hanviet": "嫌: Hiềm",
+    "icon": "🚫",
+    "image": ""
+  },
+  {
+    "id": "v_ikichigai",
+    "topicId": "t_family",
+    "jp": "行き違い",
+    "kana": "いきちがい",
+    "meaning": "lệch nhau, hiểu lầm do không khớp",
+    "example": "行き違いで会えなかった。",
+    "hanviet": "行違: Hành sai",
+    "icon": "🔀",
+    "image": ""
+  },
+  {
+    "id": "v_keien",
+    "topicId": "t_family",
+    "jp": "敬遠（する）",
+    "kana": "けいえん（する）",
+    "meaning": "tránh xa, né tránh",
+    "example": "彼はみんなに敬遠されている。",
+    "hanviet": "敬遠: Kính viễn",
+    "icon": "↩️",
+    "image": ""
+  },
+  {
+    "id": "v_kojireru",
+    "topicId": "t_family",
+    "jp": "こじれる",
+    "kana": "こじれる",
+    "meaning": "trở nên rắc rối",
+    "example": "話がこじれて解決が難しい。",
+    "hanviet": "―",
+    "icon": "🧶",
+    "image": ""
+  },
+  {
+    "id": "v_kenasu",
+    "topicId": "t_family",
+    "jp": "けなす",
+    "kana": "けなす",
+    "meaning": "chê bai, nói xấu",
+    "example": "相手をけなしても得はない。",
+    "hanviet": "―",
+    "icon": "🗯️",
+    "image": ""
+  },
+  {
+    "id": "v_nonoshiru",
+    "topicId": "t_family",
+    "jp": "ののしる",
+    "kana": "ののしる",
+    "meaning": "mạt sát, công kích bằng lời",
+    "example": "演説で相手をののしった。",
+    "hanviet": "―",
+    "icon": "📣",
+    "image": ""
+  },
+  {
+    "id": "v_kageguchi",
+    "topicId": "t_family",
+    "jp": "陰口",
+    "kana": "かげぐち",
+    "meaning": "nói xấu sau lưng",
+    "example": "陰口ではなく本人に言うべきだ。",
+    "hanviet": "陰口: Âm khẩu",
+    "icon": "🤫",
+    "image": ""
+  },
+  {
+    "id": "v_momeru",
+    "topicId": "t_family",
+    "jp": "もめる",
+    "kana": "もめる",
+    "meaning": "tranh cãi, rắc rối",
+    "example": "お金の問題でもめている。",
+    "hanviet": "―",
+    "icon": "⚖️",
+    "image": ""
+  },
+  {
+    "id": "v_ikari",
+    "topicId": "t_family",
+    "jp": "怒り",
+    "kana": "いかり",
+    "meaning": "cơn giận, phẫn nộ",
+    "example": "怒りを顔に出した。",
+    "hanviet": "怒: Nộ",
+    "icon": "🔥",
+    "image": ""
+  },
+  {
+    "id": "v_furuwaseru",
+    "topicId": "t_family",
+    "jp": "震わせる",
+    "kana": "ふるわせる",
+    "meaning": "làm run, run lên",
+    "example": "怒りに声を震わせた。",
+    "hanviet": "震: Chấn",
+    "icon": "🎤",
+    "image": ""
+  },
+  {
+    "id": "v_hitome",
+    "topicId": "t_family",
+    "jp": "人目",
+    "kana": "ひとめ",
+    "meaning": "ánh nhìn của người khác, dư luận",
+    "example": "母はいつも人目を気にしている。",
+    "hanviet": "人目: Nhân mục",
+    "icon": "👁️",
+    "image": ""
+  },
+  {
+    "id": "v_iji",
+    "topicId": "t_family",
+    "jp": "意地",
+    "kana": "いじ",
+    "meaning": "bướng bỉnh, cố chấp (lòng tự ái)",
+    "example": "二人とも意地を張って、互いに謝れなかった。",
+    "hanviet": "意地: Ý địa",
+    "icon": "🧱",
+    "image": ""
+  },
+  {
+    "id": "v_nadameru",
+    "topicId": "t_family",
+    "jp": "なだめる",
+    "kana": "なだめる",
+    "meaning": "dỗ dành, làm dịu",
+    "example": "彼が感情的になると、誰もなだめられない。",
+    "hanviet": "―",
+    "icon": "🫶",
+    "image": ""
+  },
+  {
+    "id": "v_hirakinaoru",
+    "topicId": "t_family",
+    "jp": "開き直る",
+    "kana": "ひらきなおる",
+    "meaning": "trơ ra, quay sang chống chế",
+    "example": "非難されると、彼は開き直った。",
+    "hanviet": "開直: Khai trực",
+    "icon": "😤",
+    "image": ""
+  },
+  {
+    "id": "v_keibetsu",
+    "topicId": "t_family",
+    "jp": "軽べつ（する）",
+    "kana": "けいべつ（する）",
+    "meaning": "khinh thường, khinh miệt",
+    "example": "彼女は周囲から軽べつされている。",
+    "hanviet": "軽蔑: Khinh miệt",
+    "icon": "⬇️",
+    "image": ""
+  },
+  {
+    "id": "v_warikiri",
+    "topicId": "t_family",
+    "jp": "割り切る",
+    "kana": "わりきる",
+    "meaning": "dứt khoát tách bạch, chấp nhận cho qua",
+    "example": "仕事だと割り切ってやるしかない。",
+    "hanviet": "割切: Cát thiết",
+    "icon": "✂️",
+    "image": ""
+  },
+  {
+    "id": "v_shitagokoro",
+    "topicId": "t_family",
+    "jp": "下心",
+    "kana": "したごころ",
+    "meaning": "ý đồ ngầm, động cơ không trong sáng",
+    "example": "彼の親切に下心はないと思う。",
+    "hanviet": "下心: Hạ tâm",
+    "icon": "🕵️",
+    "image": ""
+  },
+  {
+    "id": "v_sokkenai",
+    "topicId": "t_family",
+    "jp": "素っ気ない",
+    "kana": "そっけない",
+    "meaning": "lạnh nhạt, hờ hững",
+    "example": "彼は私に素っ気ない。",
+    "hanviet": "―",
+    "icon": "❄️",
+    "image": ""
+  },
+  {
+    "id": "v_aizuchi",
+    "topicId": "t_family",
+    "jp": "相づちを打つ",
+    "kana": "あいづちをうつ",
+    "meaning": "đệm lời, gật gù đồng tình",
+    "example": "相づちを打たない会話は違和感がある。",
+    "hanviet": "相槌: Tương chùy",
+    "icon": "👍",
+    "image": ""
+  },
+  {
+    "id": "v_akanotanin",
+    "topicId": "t_family",
+    "jp": "赤の他人",
+    "kana": "あかのたにん",
+    "meaning": "người dưng hoàn toàn",
+    "example": "彼と私は赤の他人だ。",
+    "hanviet": "赤他人: Xích tha nhân",
+    "icon": "🚶",
+    "image": ""
+  },
+  {
+    "id": "v_wazurawashii",
+    "topicId": "t_family",
+    "jp": "煩わしい",
+    "kana": "わずらわしい",
+    "meaning": "phiền phức, rắc rối",
+    "example": "近所付き合いは煩わしい。",
+    "hanviet": "煩: Phiền",
+    "icon": "😮‍💨",
+    "image": ""
+  },
+  {
+    "id": "v_kamau",
+    "topicId": "t_family",
+    "jp": "構う",
+    "kana": "かまう",
+    "meaning": "bận tâm, để ý",
+    "example": "他人がどうなっても構わない。",
+    "hanviet": "構: Cấu",
+    "icon": "🙈",
+    "image": ""
+  },
+  {
+    "id": "v_kippari",
+    "topicId": "t_family",
+    "jp": "きっぱり（と）",
+    "kana": "きっぱり（と）",
+    "meaning": "dứt khoát, thẳng thừng",
+    "example": "嫌なことはきっぱり断る。",
+    "hanviet": "―",
+    "icon": "✋",
+    "image": ""
+  },
+  {
+    "id": "v_kureguremo",
+    "topicId": "t_family",
+    "jp": "くれぐれも",
+    "kana": "くれぐれも",
+    "meaning": "xin đặc biệt lưu ý, rất mong",
+    "example": "今後とも、くれぐれもよろしくお願いします。",
+    "hanviet": "―",
+    "icon": "🙏",
+    "image": ""
+  }
+],
+  "state": {
+    "players": [],
+    "settings": {
+      "timerSeconds": 10,
+      "boardSize": 5,
+      "dealMode": "ALL",
+      "dealK": 11,
+      "difficulty": 1
+    },
+    "ui": {
+      "historyVisible": false
+    },
+    "board": {
+      "topicIdActive": "t_home",
+      "tiles": [
+        {
+          "tileId": "t1",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 1,
+          "openedAt": 1770274879488
+        },
+        {
+          "tileId": "t2",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 1,
+          "openedAt": 1770274883004
+        },
+        {
+          "tileId": "t3",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t4",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t5",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t6",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t7",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 2,
+          "openedAt": 1770274884545
+        },
+        {
+          "tileId": "t8",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t9",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t10",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t11",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t12",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t13",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t14",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t15",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t16",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t17",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t18",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t19",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t20",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t21",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t22",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t23",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t24",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        },
+        {
+          "tileId": "t25",
+          "vocabIds": [
+            "v_fridge"
+          ],
+          "extras": {
+            "showGrammar": false,
+            "showKanji": false
+          },
+          "stage": 0
+        }
+      ]
+    },
+    "dealing": {
+      "leaderBag": [],
+      "leaderDrawn": [],
+      "rounds": []
+    }
+  }
+}
