@@ -326,3 +326,203 @@ hr {
   display: none;
   z-index: 999;
 }
+
+/* =========================
+   TILE POPUP (Bảng ô — rộng, trang trí bắt mắt)
+========================= */
+.tile-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.tile-popup-overlay.is-open {
+  display: flex;
+}
+
+.tile-popup-content {
+  --popup-accent: #2563eb;
+  --popup-accent-soft: rgba(37, 99, 235, 0.12);
+  --popup-bg: #ffffff;
+  --popup-radius: 20px;
+  background: var(--popup-bg);
+  border-radius: var(--popup-radius);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.06),
+    0 4px 6px -2px rgba(0, 0, 0, 0.08),
+    0 24px 48px -12px rgba(0, 0, 0, 0.18);
+  max-width: min(720px, 96vw);
+  width: 100%;
+  max-height: 88vh;
+  overflow: auto;
+  position: relative;
+  padding: 0;
+}
+
+.tile-popup-content::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background: linear-gradient(90deg, var(--popup-accent), #7c3aed);
+  border-radius: var(--popup-radius) var(--popup-radius) 0 0;
+}
+
+.tile-popup-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tile-popup-close:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--text);
+}
+
+.tile-popup-body {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  padding: 32px 40px 40px;
+}
+
+.tile-popup-body .popup-jp {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.tile-popup-body .popup-jp-block {
+  margin-top: 20px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.tile-popup-body .popup-answer .popup-line {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  color: #334155;
+}
+
+.tile-popup-body .popup-answer .popup-line:first-child {
+  margin-top: 0;
+}
+
+.tile-popup-body .popup-answer .popup-line small {
+  font-size: 0.95em;
+  color: var(--muted);
+}
+
+.tile-popup-body .popup-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.tile-popup-body .popup-reveal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(145deg, var(--popup-accent), #1d4ed8);
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.tile-popup-body .popup-reveal-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+}
+
+.tile-popup-body .popup-reveal-btn:active {
+  transform: scale(0.98);
+}
+
+.tile-popup-body .popup-icon-static,
+.tile-popup-body .popup-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.tile-popup-body .popup-icon-static {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--popup-accent-soft);
+  border: 2px solid rgba(37, 99, 235, 0.2);
+}
+
+.tile-popup-body .popup-cover-img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.tile-popup-body .popup-timer {
+  font-size: 1rem;
+  color: var(--muted);
+  padding: 10px 18px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.tile-popup-body .popup-timer-value {
+  font-weight: 700;
+  color: var(--popup-accent);
+  margin-left: 2px;
+}
+
+.tile-popup-body .popup-answer-block {
+  margin-top: 20px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.tile-popup-body .popup-answer-block .popup-jp {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}

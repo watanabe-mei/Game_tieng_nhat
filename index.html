@@ -488,8 +488,7 @@
           <div class="card">
             <h3>Bảng ô</h3>
             <div class="small" style="margin-bottom: 10px">
-              Nhấn 1 lần: JP (+ timer). Nhấn 2 lần: nghĩa/đọc + phần bổ sung
-              (tùy độ khó).
+              Nhấn 1 lần: hiện popup từ (dễ nhìn). Nhấn lần 2: hiện đáp án ngay trên popup.
             </div>
 
             <div class="tiles" id="tilesBox"></div>
@@ -499,6 +498,14 @@
     </div>
 
     <div class="toast" id="toast"></div>
+
+    <!-- Popup ô bảng (click 1: từ; click 2: đáp án) -->
+    <div class="tile-popup-overlay" id="tilePopupOverlay" aria-hidden="true">
+      <div class="tile-popup-content" id="tilePopupContent">
+        <button type="button" class="tile-popup-close" id="tilePopupClose" aria-label="Đóng">&times;</button>
+        <div class="tile-popup-body" id="tilePopupBody"></div>
+      </div>
+    </div>
 
     <!-- Script -->
     <script src="assets/js/app.js" defer></script>

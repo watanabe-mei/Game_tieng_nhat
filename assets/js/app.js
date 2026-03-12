@@ -760,6 +760,141 @@
     return Math.max(0, tile.revealAt - now());
   }
 
+  function getTileVocabsAndTopic(tileIndex) {
+    const st = app.meta.value;
+    const tiles = st.board.tiles || [];
+    const tile = tiles[tileIndex];
+    if (!tile) return { tile: null, vocabs: [], topic: null };
+    const tMap = topicsById();
+    const vMap = vocabById();
+    const vocabs = (tile.vocabIds || []).map((id) => vMap.get(id) || null).filter(Boolean);
+    const topic = tMap.get(st.board.topicIdActive) || null;
+    return { tile, vocabs, topic };
+  }
+
+  function getPopupIconHtml(vocabs, topic) {
+    const v = vocabs?.[0];
+    const imgSrc = (v?.image || "").trim() || (topic?.image || "").trim();
+    if (imgSrc) {
+      return `<img src="${escapeHtml(imgSrc)}" alt="" class="popup-cover-img" />`;
+    }
+    const icon = (v?.icon || "").trim() || (topic?.icon || "").trim();
+    return `<span class="popup-icon">${escapeHtml(icon || "📌")}</span>`;
+  }
+
+  function buildTilePopupBodyHtml(tile, vocabs, topic, stage) {
+    const exEnabled = Boolean(tile?.extras?.showGrammar);
+    const iconHtml = getPopupIconHtml(vocabs, topic);
+    const iconWrap =
+      stage === 1
+        ? `<button type="button" class="popup-reveal-btn" data-action="reveal" title="Nhấn để xem đáp án">${iconHtml}</button>`
+        : `<div class="popup-icon-static">${iconHtml}</div>`;
+
+    if (stage === 1) {
+      const lines = (vocabs || [])
+        .map((v) => `<div class="popup-jp">${escapeHtml(v?.jp || "?")}</div>`)
+        .join("");
+      const jpBlock = lines || '<div class="popup-jp">?</div>';
+      const remainMs = msLeft(tile);
+      const secs = Math.max(0, Math.ceil(remainMs / 1000));
+      return `
+        <div class="popup-top-row">
+          ${iconWrap}
+          <div class="popup-timer">Còn <span class="popup-timer-value">${secs}</span>s</div>
+        </div>
+        <div class="popup-jp-block">${jpBlock}</div>
+      `;
+    }
+    if (stage === 2) {
+      const blocks = (vocabs || []).map((v) => {
+        const kanaLine = v?.kana ? `<div class="popup-line">Cách đọc: ${escapeHtml(v.kana)}</div>` : "";
+        const hanLine = v?.hanviet ? `<div class="popup-line">Hán việt: ${escapeHtml(v.hanviet)}</div>` : "";
+        const meaningLine = v?.meaning ? `<div class="popup-line"><b>Nghĩa:</b> ${escapeHtml(v.meaning)}</div>` : "";
+        const exampleLine =
+          exEnabled && v?.example
+            ? `<div class="popup-line small"><b>Ví dụ:</b> ${escapeHtml(v.example)}</div>`
+            : "";
+        return `
+          <div class="popup-jp">${escapeHtml(v?.jp || "?")}</div>
+          <div class="popup-answer">${kanaLine}${hanLine}${meaningLine}${exampleLine}</div>
+        `;
+      });
+      const answerBlock = blocks.join(
+        '<div style="height:16px;border-top:1px solid var(--border);margin:16px 0;"></div>'
+      );
+      return `
+        <div class="popup-top-row"><div class="popup-icon-static">${iconHtml}</div></div>
+        <div class="popup-answer-block">${answerBlock}</div>
+      `;
+    }
+    return "";
+  }
+
+  let tilePopupTimerId = null;
+  let tilePopupCurrentIndex = null;
+
+  function stopTilePopupTimer() {
+    if (tilePopupTimerId != null) {
+      clearInterval(tilePopupTimerId);
+      tilePopupTimerId = null;
+    }
+  }
+
+  function showTilePopup(tileIndex) {
+    const { tile, vocabs, topic } = getTileVocabsAndTopic(tileIndex);
+    if (!tile || !elTilePopupOverlay || !elTilePopupBody) return;
+    stopTilePopupTimer();
+    normalizeTileSchema(tile);
+    tilePopupCurrentIndex = tileIndex;
+    elTilePopupOverlay.dataset.tileIndex = String(tileIndex);
+
+    const html = buildTilePopupBodyHtml(tile, vocabs, topic, tile.stage);
+    elTilePopupBody.innerHTML = html;
+    elTilePopupOverlay.classList.add("is-open");
+    elTilePopupOverlay.setAttribute("aria-hidden", "false");
+
+    if (tile.stage === 1) {
+      const elTimerVal = elTilePopupBody.querySelector(".popup-timer-value");
+      const revealAt = tile.revealAt || 0;
+
+      function tick() {
+        const left = Math.max(0, revealAt - now());
+        if (elTimerVal) elTimerVal.textContent = Math.ceil(left / 1000);
+        if (left <= 0) stopTilePopupTimer();
+      }
+      tick();
+      tilePopupTimerId = setInterval(tick, 500);
+    }
+
+    elTilePopupBody.querySelector(".popup-reveal-btn")?.addEventListener("click", () => {
+      revealPopupAnswer();
+    });
+  }
+
+  async function revealPopupAnswer() {
+    const idx = tilePopupCurrentIndex;
+    if (idx == null || idx < 0) return;
+    const st = app.meta.value;
+    const tiles = st.board.tiles || [];
+    const tile = tiles[idx];
+    if (!tile || tile.stage !== 1) return;
+    stopTilePopupTimer();
+    tile.stage = 2;
+    await persistMeta();
+    renderTiles();
+    showTilePopup(idx);
+  }
+
+  function closeTilePopup() {
+    stopTilePopupTimer();
+    tilePopupCurrentIndex = null;
+    if (elTilePopupOverlay) {
+      elTilePopupOverlay.classList.remove("is-open");
+      elTilePopupOverlay.setAttribute("aria-hidden", "true");
+      delete elTilePopupOverlay.dataset.tileIndex;
+    }
+  }
+
   async function onTileClick(tileIndex) {
     const st = app.meta.value;
     const tiles = st.board.tiles || [];
@@ -773,6 +908,7 @@
       tile.revealAt = now() + clampInt(st.settings.timerSeconds ?? 10, 1, 120) * 1000;
       await persistMeta();
       renderTiles();
+      showTilePopup(tileIndex);
       return;
     }
 
@@ -780,6 +916,7 @@
       tile.stage = 2;
       await persistMeta();
       renderTiles();
+      showTilePopup(tileIndex);
     }
   }
 
@@ -835,6 +972,9 @@
   const elDifficultyLabel = document.getElementById("difficultyLabel");
 
   const elTilesBox = document.getElementById("tilesBox");
+  const elTilePopupOverlay = document.getElementById("tilePopupOverlay");
+  const elTilePopupBody = document.getElementById("tilePopupBody");
+  const elTilePopupClose = document.getElementById("tilePopupClose");
   const elPlayersBox = document.getElementById("playersBox");
   const elShowingCount = document.getElementById("showingCount");
   const elMaxNumberLabel = document.getElementById("maxNumberLabel");
@@ -1220,8 +1360,7 @@
 
       const right = document.createElement("div");
       right.className = "small";
-      const remain = msLeft(tile);
-      right.textContent = tile.stage === 1 && remain > 0 ? `${Math.ceil(remain / 1000)}s` : "";
+      right.textContent = "";
 
       top.appendChild(left);
       top.appendChild(right);
@@ -1505,6 +1644,18 @@
 
   function bindEvents() {
     bindPanelButtons();
+
+    if (elTilePopupClose) {
+      elTilePopupClose.addEventListener("click", () => closeTilePopup());
+    }
+    if (elTilePopupOverlay) {
+      elTilePopupOverlay.addEventListener("click", (e) => {
+        if (e.target === elTilePopupOverlay) closeTilePopup();
+      });
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && elTilePopupOverlay?.classList.contains("is-open")) closeTilePopup();
+    });
 
     document.getElementById("btnResetAll").addEventListener("click", async () => {
       await idbClear(app.db, "topics");
