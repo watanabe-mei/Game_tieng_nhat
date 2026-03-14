@@ -651,20 +651,29 @@
   }
 
   // ---------------- Players / Dealing (giữ như cũ) ----------------
-  async function addPlayer(name) {
-    const n = String(name ?? "").trim();
-    if (!n) return toast("Tên người chơi không được trống");
+  async function addPlayer(input) {
+    const names = String(input ?? "")
+      .split(";")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    if (!names.length) return toast("Tên người chơi không được trống");
 
-    app.meta.value.players.push({
-      id: uid("p"),
-      name: n,
-      joinedAt: now(),
-      pinned: false,
-    });
+    for (const n of names) {
+      app.meta.value.players.push({
+        id: uid("p"),
+        name: n,
+        joinedAt: now(),
+        pinned: false,
+      });
+    }
 
     ensureLeaderBag();
     await persistMeta();
-    toast("Đã thêm người chơi");
+    toast(
+      names.length === 1
+        ? "Đã thêm người chơi"
+        : `Đã thêm ${names.length} người chơi`
+    );
   }
 
   async function togglePinPlayer(pid) {
